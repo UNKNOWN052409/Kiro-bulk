@@ -1,0 +1,75 @@
+================================================================================
+Kiro Builder ID Automation - Usage Modes & Commands
+================================================================================
+
+This file documents the different modes and commands available in kiro_builder_id.py,
+especially highlighting how to run without a visual Chrome web view (headless mode).
+
+All commands assume you are running them from the 'automation' directory:
+cd D:\dowload\scrcpy-win64-v3.3.4\automation
+
+================================================================================
+PART 1: RUNNING WITHOUT WEB VIEW (HEADLESS / BACKGROUND MODE)
+================================================================================
+These commands run the entire sign-up process in the background. No Chrome window
+will appear on your screen, which makes it fast and keeps your desktop clean.
+
+1. Repeat Immediately without Web View (Recommended for continuous speed run)
+   - Command:
+     python kiro_builder_id/kiro_builder_id.py <domain> --immediate --headless --close-on-exit
+   - Example:
+     python kiro_builder_id/kiro_builder_id.py example.com --immediate --headless --close-on-exit
+
+2. Repeat with a Delay (e.g. 10 seconds) without Web View
+   - Command:
+     python kiro_builder_id/kiro_builder_id.py <domain> --repeat --delay <seconds> --headless --close-on-exit
+   - Example:
+     python kiro_builder_id/kiro_builder_id.py example.com --repeat --delay 10 --headless --close-on-exit
+
+3. Single Run without Web View
+   - Command:
+     python kiro_builder_id/kiro_builder_id.py <domain> --headless --close-on-exit
+   - Example:
+     python kiro_builder_id/kiro_builder_id.py example.com --headless --close-on-exit
+
+
+================================================================================
+PART 2: RUNNING WITH VISIBLE WEB VIEW (DEFAULT GUI MODE)
+================================================================================
+These commands open the Chrome browser window so you can watch the automation.
+
+1. Repeat Immediately with Web View
+   - Command:
+     python kiro_builder_id/kiro_builder_id.py <domain> --immediate
+   - Example:
+     python kiro_builder_id/kiro_builder_id.py example.com --immediate
+
+2. Repeat with a Delay (e.g. 15 seconds) with Web View
+   - Command:
+     python kiro_builder_id/kiro_builder_id.py <domain> --repeat --delay <seconds>
+   - Example:
+     python kiro_builder_id/kiro_builder_id.py example.com --repeat --delay 15
+
+3. Single Run with Web View
+   - Command:
+     python kiro_builder_id/kiro_builder_id.py <domain>
+   - Example:
+     python kiro_builder_id/kiro_builder_id.py example.com
+
+
+================================================================================
+PART 3: ADDITIONAL USEFUL ARGUMENTS
+================================================================================
+You can mix and match these options with any of the modes above:
+
+* --close-on-exit
+  Closes the Chrome browser window(s) as soon as the automation run is completed or
+  stopped. (Essential for headless runs to prevent background processes sticking around).
+
+* --no-click-continue
+  Fills the email in the browser but stops before clicking Continue, allowing you to 
+  manually take over. (Only works with visible web view).
+
+* --profile-dir <path>
+  Specifies a folder path to save and load the Chrome profiles instead of using a
+  temporary folder.

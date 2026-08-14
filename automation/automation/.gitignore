@@ -1,0 +1,16 @@
+# OAuth2 secrets — NEVER commit these
+credentials.json
+token.json
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# IDE
+.vscode/
+.idea/

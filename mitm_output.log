@@ -1,0 +1,182 @@
+[08:15:41.210] Loading script mitm_addon.py
+[08:15:41.212] HTTP(S) proxy listening at *:8080.
+[08:15:41.683][127.0.0.1:42842] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:15:41.687][127.0.0.1:42842] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:15:41.688][127.0.0.1:42842] client disconnect
+[08:15:43.683][127.0.0.1:42848] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:15:43.686][127.0.0.1:42848] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:15:43.687][127.0.0.1:42848] client disconnect
+[08:15:51.683][127.0.0.1:56070] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:15:51.688][127.0.0.1:56070] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:15:51.690][127.0.0.1:56070] client disconnect
+[08:16:01.684][127.0.0.1:34874] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:16:01.687][127.0.0.1:34874] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:16:01.688][127.0.0.1:34874] client disconnect
+[08:16:05.683][127.0.0.1:34886] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:16:05.687][127.0.0.1:34886] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:16:05.688][127.0.0.1:34886] client disconnect
+[08:16:11.683][127.0.0.1:34992] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:16:11.688][127.0.0.1:34992] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:16:11.690][127.0.0.1:34992] client disconnect
+[08:16:21.683][127.0.0.1:59092] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:16:21.685][127.0.0.1:59092] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:16:21.686][127.0.0.1:59092] client disconnect
+[08:16:31.683][127.0.0.1:58452] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:16:31.686][127.0.0.1:58452] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:16:31.687][127.0.0.1:58452] client disconnect
+[08:16:41.683][127.0.0.1:44898] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:16:41.686][127.0.0.1:44898] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:16:41.687][127.0.0.1:44898] client disconnect
+[08:16:51.683][127.0.0.1:38558] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:16:51.686][127.0.0.1:38558] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:16:51.687][127.0.0.1:38558] client disconnect
+[08:17:01.684][127.0.0.1:37384] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:17:01.687][127.0.0.1:37384] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:17:01.689][127.0.0.1:37384] client disconnect
+[08:17:11.683][127.0.0.1:43688] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:17:11.687][127.0.0.1:43688] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:17:11.688][127.0.0.1:43688] client disconnect
+[08:17:21.683][127.0.0.1:42466] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:17:21.687][127.0.0.1:42466] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:17:21.688][127.0.0.1:42466] client disconnect
+[08:17:31.683][127.0.0.1:49132] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:17:31.687][127.0.0.1:49132] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:17:31.688][127.0.0.1:49132] client disconnect
+[08:17:41.684][127.0.0.1:51378] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:17:41.687][127.0.0.1:51378] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:17:41.688][127.0.0.1:51378] client disconnect
+[08:17:51.683][127.0.0.1:40520] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:17:51.687][127.0.0.1:40520] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:17:51.688][127.0.0.1:40520] client disconnect
+[08:18:01.684][127.0.0.1:49982] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:18:01.688][127.0.0.1:49982] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:18:01.689][127.0.0.1:49982] client disconnect
+[08:18:11.683][127.0.0.1:38936] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:18:11.687][127.0.0.1:38936] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:18:11.688][127.0.0.1:38936] client disconnect
+[08:18:21.683][127.0.0.1:37424] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:18:21.688][127.0.0.1:37424] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:18:21.689][127.0.0.1:37424] client disconnect
+[08:18:31.683][127.0.0.1:34930] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:18:31.689][127.0.0.1:34930] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:18:31.690][127.0.0.1:34930] client disconnect
+[08:18:41.684][127.0.0.1:58978] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:18:41.690][127.0.0.1:58978] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:18:41.691][127.0.0.1:58978] client disconnect
+[08:18:51.684][127.0.0.1:50826] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:18:51.688][127.0.0.1:50826] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:18:51.689][127.0.0.1:50826] client disconnect
+[08:19:01.684][127.0.0.1:50752] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:19:01.688][127.0.0.1:50752] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:19:01.690][127.0.0.1:50752] client disconnect
+[08:19:11.683][127.0.0.1:37588] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:19:11.687][127.0.0.1:37588] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:19:11.689][127.0.0.1:37588] client disconnect
+[08:19:21.684][127.0.0.1:45132] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:19:21.690][127.0.0.1:45132] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:19:21.692][127.0.0.1:45132] client disconnect
+[08:19:33.685][127.0.0.1:39932] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:19:33.689][127.0.0.1:39932] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:19:33.691][127.0.0.1:39932] client disconnect
+[08:19:43.685][127.0.0.1:57534] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:19:43.689][127.0.0.1:57534] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:19:43.690][127.0.0.1:57534] client disconnect
+[08:19:53.684][127.0.0.1:48752] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:19:53.688][127.0.0.1:48752] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:19:53.689][127.0.0.1:48752] client disconnect
+[08:20:03.684][127.0.0.1:36008] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:03.689][127.0.0.1:36008] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:03.690][127.0.0.1:36008] client disconnect
+[08:20:07.685][127.0.0.1:47516] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:07.691][127.0.0.1:47516] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:07.692][127.0.0.1:47516] client disconnect
+[08:20:09.683][127.0.0.1:47526] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:09.687][127.0.0.1:47526] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:09.688][127.0.0.1:47526] client disconnect
+[08:20:11.683][127.0.0.1:47534] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:11.687][127.0.0.1:47534] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:11.688][127.0.0.1:47534] client disconnect
+[08:20:13.685][127.0.0.1:47540] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:13.693][127.0.0.1:47540] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:13.695][127.0.0.1:47540] client disconnect
+[08:20:17.683][127.0.0.1:57916] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:17.688][127.0.0.1:57916] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:17.689][127.0.0.1:57916] client disconnect
+[08:20:19.683][127.0.0.1:57932] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:19.687][127.0.0.1:57932] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:19.688][127.0.0.1:57932] client disconnect
+[08:20:21.684][127.0.0.1:57940] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:21.688][127.0.0.1:57940] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:21.690][127.0.0.1:57940] client disconnect
+[08:20:23.683][127.0.0.1:57954] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:23.688][127.0.0.1:57954] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:23.689][127.0.0.1:57954] client disconnect
+[08:20:33.683][127.0.0.1:48256] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:33.687][127.0.0.1:48256] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:33.688][127.0.0.1:48256] client disconnect
+[08:20:37.684][127.0.0.1:40948] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:37.688][127.0.0.1:40948] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:37.689][127.0.0.1:40948] client disconnect
+[08:20:39.683][127.0.0.1:40954] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:39.687][127.0.0.1:40954] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:39.688][127.0.0.1:40954] client disconnect
+[08:20:41.683][127.0.0.1:40970] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:41.687][127.0.0.1:40970] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:41.688][127.0.0.1:40970] client disconnect
+[08:20:43.684][127.0.0.1:40976] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:43.689][127.0.0.1:40976] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:43.690][127.0.0.1:40976] client disconnect
+[08:20:47.683][127.0.0.1:48046] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:47.687][127.0.0.1:48046] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:47.688][127.0.0.1:48046] client disconnect
+[08:20:53.684][127.0.0.1:48054] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:53.688][127.0.0.1:48054] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:53.689][127.0.0.1:48054] client disconnect
+[08:20:57.683][127.0.0.1:39910] client connect
+[REQ] POST http://127.0.0.1:8080/
+[08:20:57.687][127.0.0.1:39910] server connection to 127.0.0.1:8080 killed before connect: Request destination unknown. Unable to figure out where this request should be forwarded to.
+[08:20:57.688][127.0.0.1:39910] client disconnect

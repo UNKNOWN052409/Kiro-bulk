@@ -1,0 +1,4 @@
+Proxy wrapper v2 listening on 127.0.0.1:8899 with session res-us
+  SOCKS5 connect attempt 1 failed: Socket error: 0x05: Connection refused
+  SOCKS5 connect attempt 2 failed: Socket error: 0x05: Connection refused
+  SOCKS5 connect attempt 3 failed: Socket error: 0x05: Connection refused

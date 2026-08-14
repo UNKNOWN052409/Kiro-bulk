@@ -1,0 +1,28 @@
+# Core browser automation
+playwright>=1.50.0
+playwright-stealth>=2.0.0
+camoufox[geoip]>=1.0.0
+
+# HTTP clients
+curl_cffi>=0.15.0
+requests>=2.31.0
+httpx>=0.27.0
+
+# Stealth browser (local package, install from CloakBrowser/)
+# pip install ./CloakBrowser
+
+# Data generation
+faker>=22.0
+
+# Web framework (mail automation dashboard)
+flask>=3.0
+
+# Google OAuth (optional, for Gmail IMAP)
+google-auth>=2.28.0
+google-auth-oauthlib>=1.2.0
+
+# Crypto
+cryptography>=42.0
+
+# Packaging
+pyinstaller>=6.0

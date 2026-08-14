@@ -1,0 +1,23 @@
+[*] Creating 1 accounts...
+[1/1] lgrvinz7l0@havenhaus.in (Alexander Brown)
+  Password: TestPass9544!
+Traceback (most recent call last):
+  File "/home/ubuntu/kiro-gen/final_production_v2.py", line 409, in <module>
+    result, error = create_account(email, name, password, port_start=start_port + i)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/kiro-gen/final_production_v2.py", line 160, in create_account
+    browser = p.chromium.launch(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/playwright/sync_api/_generated.py", line 16702, in launch
+    self._sync(
+  File "/usr/local/lib/python3.12/dist-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/playwright/_impl/_browser_type.py", line 97, in launch
+    await self._channel.send(
+  File "/usr/local/lib/python3.12/dist-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: Browser does not support socks5 proxy authentication

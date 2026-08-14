@@ -1,0 +1,152 @@
+[
+  {
+    "name": "HTTP-res-any",
+    "connected": false,
+    "blocked": null,
+    "error": "No connection"
+  },
+  {
+    "name": "HTTP-res-US",
+    "connected": false,
+    "blocked": null,
+    "error": "No connection"
+  },
+  {
+    "name": "HTTP-res-IN",
+    "connected": false,
+    "blocked": null,
+    "error": "No connection"
+  },
+  {
+    "name": "HTTP-res-GB",
+    "connected": false,
+    "blocked": null,
+    "error": "No connection"
+  },
+  {
+    "name": "HTTP-res-CA",
+    "connected": false,
+    "blocked": null,
+    "error": "No connection"
+  },
+  {
+    "name": "HTTP-res-DE",
+    "connected": false,
+    "blocked": null,
+    "error": "No connection"
+  },
+  {
+    "name": "HTTPS-res-any",
+    "connected": false,
+    "blocked": null,
+    "error": "No connection"
+  },
+  {
+    "name": "HTTPS-res-US",
+    "connected": false,
+    "blocked": null,
+    "error": "No connection"
+  },
+  {
+    "name": "SOCKS5-res-any",
+    "connected": true,
+    "ip": "159.0.61.220",
+    "location": "?, ?, {'asn': 'AS25019', 'org': 'Saudi Telecom Company JSC', 'isp': 'Saudinet'}",
+    "blocked": false,
+    "response": "{\"features\":{\"AddressCollection\":{\"featureVariation\":\"DISABLED\"},\"UserAlias\":{\"featureVariation\":\"DISABLED\"}}}"
+  },
+  {
+    "name": "SOCKS5-res-US",
+    "connected": true,
+    "ip": "32.219.39.203",
+    "location": "?, ?, {'asn': 'AS46690', 'org': 'Southern New England Telephone Company and SNET America, Inc.', 'isp': 'Southern New England Telephone Company and SNET America'}",
+    "blocked": false,
+    "response": "{\"features\":{\"AddressCollection\":{\"featureVariation\":\"DISABLED\"},\"UserAlias\":{\"featureVariation\":\"DISABLED\"}}}"
+  },
+  {
+    "name": "SOCKS5-res-IN",
+    "connected": false,
+    "blocked": null,
+    "error": "No connection"
+  },
+  {
+    "name": "SOCKS5-res-GB",
+    "connected": true,
+    "ip": "92.28.145.243",
+    "location": "?, ?, {'asn': 'AS13285', 'org': 'TalkTalk Communications Limited', 'isp': 'TalkTalk'}",
+    "blocked": false,
+    "response": "{\"features\":{\"AddressCollection\":{\"featureVariation\":\"DISABLED\"},\"UserAlias\":{\"featureVariation\":\"DISABLED\"}}}"
+  },
+  {
+    "name": "SOCKS5-res-CA",
+    "connected": true,
+    "ip": "24.142.40.25",
+    "location": "?, ?, {'asn': 'AS11260', 'org': 'EastLink', 'isp': 'EastLink'}",
+    "blocked": false,
+    "response": "{\"features\":{\"AddressCollection\":{\"featureVariation\":\"DISABLED\"},\"UserAlias\":{\"featureVariation\":\"DISABLED\"}}}"
+  },
+  {
+    "name": "SOCKS5-res-DE",
+    "connected": true,
+    "ip": "94.31.72.74",
+    "location": "?, ?, {'asn': 'AS60294', 'org': 'Deutsche Glasfaser Wholesale GmbH', 'isp': 'Deutsche Glasfaser Wholesale GmbH'}",
+    "blocked": false,
+    "response": "{\"features\":{\"AddressCollection\":{\"featureVariation\":\"DISABLED\"},\"UserAlias\":{\"featureVariation\":\"DISABLED\"}}}"
+  },
+  {
+    "name": "SOCKS5-res-AU",
+    "connected": true,
+    "ip": "149.167.36.147",
+    "location": "?, ?, {'asn': 'AS135887', 'org': 'Telstra Limited', 'isp': 'Telstra Limited'}",
+    "blocked": false,
+    "response": "{\"features\":{\"AddressCollection\":{\"featureVariation\":\"DISABLED\"},\"UserAlias\":{\"featureVariation\":\"DISABLED\"}}}"
+  },
+  {
+    "name": "SOCKS5-res-BR",
+    "connected": true,
+    "ip": "177.185.40.232",
+    "location": "?, ?, {'asn': 'AS263574', 'org': 'ETECC FIBRA OPTICA', 'isp': 'Etecc Fibra Optica'}",
+    "blocked": false,
+    "response": "{\"features\":{\"AddressCollection\":{\"featureVariation\":\"DISABLED\"},\"UserAlias\":{\"featureVariation\":\"DISABLED\"}}}"
+  },
+  {
+    "name": "SOCKS5-res-JP",
+    "connected": true,
+    "ip": "59.143.60.129",
+    "location": "?, ?, {'asn': 'AS2516', 'org': 'KDDI CORPORATION', 'isp': 'DION (KDDI CORPORATION)'}",
+    "blocked": false,
+    "response": "{\"features\":{\"AddressCollection\":{\"featureVariation\":\"DISABLED\"},\"UserAlias\":{\"featureVariation\":\"DISABLED\"}}}"
+  },
+  {
+    "name": "SOCKS5-res-FR",
+    "connected": true,
+    "ip": "90.52.228.51",
+    "location": "?, ?, {'asn': 'AS3215', 'org': 'Orange S.A.', 'isp': 'Orange'}",
+    "blocked": false,
+    "response": "{\"features\":{\"AddressCollection\":{\"featureVariation\":\"DISABLED\"},\"UserAlias\":{\"featureVariation\":\"DISABLED\"}}}"
+  },
+  {
+    "name": "SOCKS5-res-NL",
+    "connected": true,
+    "ip": "62.250.52.174",
+    "location": "?, ?, {'asn': 'AS50266', 'org': 'Odido Netherlands B.V.', 'isp': 'Odido Netherlands B.V.'}",
+    "blocked": false,
+    "response": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR"
+  },
+  {
+    "name": "SOCKS5-res-SG",
+    "connected": true,
+    "ip": "49.245.47.8",
+    "location": "?, ?, {'asn': 'AS4773', 'org': 'M1 LIMITED', 'isp': 'M1 LIMITED'}",
+    "blocked": false,
+    "response": "{\"features\":{\"AddressCollection\":{\"featureVariation\":\"DISABLED\"},\"UserAlias\":{\"featureVariation\":\"DISABLED\"}}}"
+  },
+  {
+    "name": "SOCKS5-res-MX",
+    "connected": true,
+    "ip": "187.222.153.24",
+    "location": "?, ?, {'asn': 'AS8151', 'org': 'Uninet S.A. de C.V.', 'isp': 'Uninet S.A. de C.V.'}",
+    "blocked": false,
+    "response": "{\"features\":{\"AddressCollection\":{\"featureVariation\":\"DISABLED\"},\"UserAlias\":{\"featureVariation\":\"DISABLED\"}}}"
+  }
+]

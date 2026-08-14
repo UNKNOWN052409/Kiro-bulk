@@ -1,0 +1,14 @@
+services:
+  kiro-bot:
+    build: .
+    container_name: kiro-bot
+    volumes:
+      - ./output:/app/output
+      - ./panels.json:/app/panels.json:ro
+    environment:
+      - PANELS=/app/panels.json
+      - COUNT=${COUNT:-99999}
+      - DOMAIN=${DOMAIN:-fake.legal}
+      - COUNTRY=${COUNTRY:-us}
+      - MAIL_PROVIDER=${MAIL_PROVIDER:-fake_legal}
+    restart: unless-stopped

@@ -1,0 +1,87 @@
+[*] Creating 1 accounts...
+[1/1] xuji4qumpi@havenhaus.in (Shaurya Verma)
+  Password: TestPass4344#
+    Initial body: Get started
+Email
+Continue
+OR
+Continue with Google
+Continue with Apple
+Continue with GitHub
+Continue
+    Filling email: xuji4qumpi@havenhaus.in
+    Email submitted, waiting for next page...
+    After email: Enter your name
+Email
+xuji4qumpi@havenhaus.in
+Change
+Name
+Continue
+Privacy
+|
+Sit
+    Filling name: Shaurya Verma
+    Name submitted, waiting for next page...
+    After name: Error
+ERR-837 - Sorry, there was an error processing your request. Please try ag
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+    [!] Stuck on step 'otp'. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+  [!] Error: No Allow. Step: otp. Body: Error
+ERR-837 - Sorry, there was an error processing your request. Please try again.
+Enter your name
+Email
+xuji4qumpi@havenhaus.in
+Change
+Name
+Continue
+Privacy
+|
+Site terms
+|
+Cookie preferences
+© 2026
+
+[*] Done! 0/1 accounts created with tokens.

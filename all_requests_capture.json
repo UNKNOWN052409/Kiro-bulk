@@ -1,0 +1,1510 @@
+{
+  "account": {
+    "first": "Vikram",
+    "last": "Verma",
+    "email": "5hjv38wbpu@havenhaus.in",
+    "password": "9PfrK$f2O3%4n2"
+  },
+  "requests": [
+    {
+      "url": "https://oidc.us-east-1.amazonaws.com/authorize?response_type=code&client_id=twBoZc8ITjUuQpIBIShl-XVzLWVhc3QtMQ&redirect_uri=http%3A//127.0.0.1%3A9997/oauth/callback&scopes=codewhisperer%3Acompletions%20codewhisperer%3Aanalysis%20codewhisperer%3Aconversations%20codewhisperer%3Atransformations%20codewhisperer%3Ataskassist&state=MxoAIhsnx9OlZfXtD3QNtg&code_challenge=PLmDYP0g1uwd7RNp9zA8Ou6Iir_qQAKmutax5duiQS8&code_challenge_method=S256",
+      "method": "GET",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "post_data": null,
+      "timestamp": 1786689317.024533
+    },
+    {
+      "url": "https://view.awsapps.com/start/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q",
+      "method": "GET",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "post_data": null,
+      "timestamp": 1786689317.714037
+    },
+    {
+      "url": "https://view.awsapps.com/start/",
+      "method": "GET",
+      "headers": {
+        "referer": "https://view.awsapps.com/start/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "post_data": null,
+      "timestamp": 1786689317.7625608
+    },
+    {
+      "url": "https://portal.sso.us-east-1.amazonaws.com/login?directory_id=view&redirect_url=https%3A%2F%2Fview.awsapps.com%2Fstart%2F%3Fcallback_url%3Dhttps%253A%252F%252Foidc.us-east-1.amazonaws.com%252Fauthentication_result%26orchestrator_id%3DAAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689317.7629514
+    },
+    {
+      "url": "https://prod.pa.cdn.uis.awsstatic.com/panorama-nav-init.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689317.783226
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/main.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689317.7835248
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/main.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689317.7837934
+    },
+    {
+      "url": "https://portal.sso.us-east-1.amazonaws.com/login?directory_id=view&redirect_url=https%3A%2F%2Fview.awsapps.com%2Fstart%2F%23%2F%3Fcallback_url%3Dhttps%253A%252F%252Foidc.us-east-1.amazonaws.com%252Fauthentication_result%26orchestrator_id%3DAAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689317.7896342
+    },
+    {
+      "url": "https://a.b.cdn.console.awsstatic.com/a/v1/CEQ753HGI4VIEBGCDVTGJAUVQGBTUEBLQAPUZKXOPUCG73VLELWQ/4f9d21011c2f449797c97ad39e28d981db54e8abc2d447ce9b3129dbc8be99c4.js",
+      "method": "GET",
+      "headers": {
+        "origin": "https://view.awsapps.com",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689317.814878
+    },
+    {
+      "url": "https://us-east-1.prod.pl.panorama.console.api.aws/panoramaroute",
+      "method": "POST",
+      "headers": {
+        "panorama-appentity": "aws-idc-access-portal",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/json; charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": "{\"consoleService\":\"aws-idc-access-portal\",\"consoleRegion\":\"us-east-1\",\"awsUserInfo\":\"\",\"awsUserInfoSigned\":\"\",\"appEntity\":\"aws-idc-access-portal\",\"visitorInfo\":\"\",\"version\":\"2.8.228\",\"tabId\":\"ce44dc8b-9667-4d08-ad0e-57208053574a\",\"modality\":\"web\",\"deviceTimeZone\":\"0\",\"browserLanguage\":\"en-US\",\"deviceResolutionWidth\":\"1280\",\"deviceResolutionHeight\":\"720\",\"browserColorDepth\":\"24\",\"domain\":\"NonProd\",\"browserCookies\":\"\",\"awsIdentityToken\":\"\",\"batchRequest\":[{\"eventType\":\"panoramaPing\",\"eventContext\":\"pageload\",\"eventDetail\":\"\",\"eventValue\":\"1\",\"timestamp\":1786689317920,\"eventSource\":\"panorama\",\"requestId\":\"bc2c5449-bf82-4379-91f0-564704687999\",\"service\":\"aws-idc-access-portal\",\"consoleRegion\":\"us-east-1\",\"version\":\"2.8.228\",\"tabId\":\"ce44dc8b-9667-4d08-ad0e-57208053574a\",\"modality\":\"web\",\"deviceTimeZone\":\"0\",\"browserLanguage\":\"en-US\",\"deviceResolutionWidth\":\"1280\",\"deviceResolutionHeight\":\"720\",\"browserColorDepth\":\"24\",\"domain\":\"NonProd\",\"browserCookies\":\"\",\"browserViewPortWidth\":1280,\"browserViewPortHeight\":720,\"referrer\":\"https://view.awsapps.com/start/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"requestUri\":\"https://view.awsapps.com/start/#/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"pageUrlPath\":\"https://view.awsapps.com/start/#/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\"}],\"batchRequestId\":\"d336c8f4-c4a1-4ad2-8ae7-b0ccc117b4c6\"}",
+      "timestamp": 1786689317.9233701
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/2416.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.0855262
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/be398c611275138367fb.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.0860095
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/6458.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.0864987
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/0dff3792563ab8618a43.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.0868545
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/1897.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.0871918
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/7b2ea742d253156f21ce.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.0874798
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/2289.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.0876997
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/84cde9a9832441af704f.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.087932
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/8129.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.0881824
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/819356ca1023cc5d1f44.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.0883715
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/5056.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.0885673
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/233ffe5e85bd76cff897.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.0887601
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/4829.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.088975
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/de3aa99edc39ab2dbe2e.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.0892231
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/be0bf1555584b8a5f7fd.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689318.0895493
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/f2300c7b11737479160a.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.0914266
+    },
+    {
+      "url": "https://log.sso-portal.us-east-1.amazonaws.com/log",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "accept": "application/json, text/plain",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": "{\"type\":\"inline\",\"entry\":{\"region\":\"us-east-1\",\"url\":\"https://view.awsapps.com/start/#/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"message\":\"whoAmI:200\",\"error\":\"\",\"timestamp\":\"2026-08-14T06:35:18.806Z\"}}",
+      "timestamp": 1786689321.0975754
+    },
+    {
+      "url": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=36e82ffe-54d2-4b2f-9498-43f84798b355",
+      "method": "GET",
+      "headers": {
+        "referer": "https://view.awsapps.com/",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "post_data": null,
+      "timestamp": 1786689321.097947
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/80d1c66fc0410347940b.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.0981936
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/1097.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.098737
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/194934f4a75fd6efdc7d.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.0989118
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/8800.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.0990827
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/f70592ff60a9ef9474db.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.0992606
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/8369.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.0994341
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/de5fa0131a9f9d247a81.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.0996456
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/8130.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.0998688
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/31d150a35a2e2c59fd5a.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.1000714
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/a279d5155152da4b1336.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.1002674
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/2043.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.1004405
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/21a2dbf8dab457b21c3d.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.1006055
+    },
+    {
+      "url": "https://assets.sso-portal.us-east-1.amazonaws.com/2026-08-10-10-36-31-962/610bfba3ad95fea10790.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.100786
+    },
+    {
+      "url": "https://portal.sso.us-east-1.amazonaws.com/token/whoAmI",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.1041913
+    },
+    {
+      "url": "https://portal.sso.us-east-1.amazonaws.com/login?directory_id=view&redirect_url=https%3A%2F%2Fview.awsapps.com%2Fstart%2F%23%2F%3Fcallback_url%3Dhttps%253A%252F%252Foidc.us-east-1.amazonaws.com%252Fauthentication_result%26orchestrator_id%3DAAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.1047266
+    },
+    {
+      "url": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+      "method": "GET",
+      "headers": {
+        "referer": "https://view.awsapps.com/",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "post_data": null,
+      "timestamp": 1786689321.105634
+    },
+    {
+      "url": "https://us-east-1.prod.pl.panorama.console.api.aws/panoramaroute",
+      "method": "POST",
+      "headers": {
+        "panorama-appentity": "aws-idc-access-portal",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://view.awsapps.com/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/json; charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": "{\"browserColorDepth\":\"24\",\"browserCookies\":\"\",\"browserLanguage\":\"en-US\",\"deviceResolutionWidth\":\"1280\",\"deviceResolutionHeight\":\"720\",\"deviceTimeZone\":\"0\",\"domain\":\"NonProd\",\"modality\":\"web\",\"tabId\":\"ce44dc8b-9667-4d08-ad0e-57208053574a\",\"version\":\"2.8.228\",\"appEntity\":\"aws-idc-access-portal\",\"awsUserInfo\":\"\",\"awsUserInfoSigned\":\"\",\"awsIdentityToken\":\"\",\"batchRequest\":[{\"eventSource\":\"polaroid\",\"eventType\":\"performance\",\"timestamp\":\"1786689318156\",\"operationalData\":{\"metricList\":[{\"metricName\":\"timeToFirstByte\",\"metricValue\":11.299999982118607,\"metricUnit\":\"Milliseconds\",\"metricDetails\":\"\"}]},\"requestId\":\"24174889-30a8-48dc-8d19-8b996122624b\",\"service\":\"aws-idc-access-portal\",\"consoleRegion\":\"us-east-1\",\"version\":\"2.8.228\",\"tabId\":\"ce44dc8b-9667-4d08-ad0e-57208053574a\",\"modality\":\"web\",\"deviceTimeZone\":\"0\",\"browserLanguage\":\"en-US\",\"deviceResolutionWidth\":\"1280\",\"deviceResolutionHeight\":\"720\",\"browserColorDepth\":\"24\",\"domain\":\"NonProd\",\"browserCookies\":\"\",\"browserViewPortWidth\":\"1280\",\"browserViewPortHeight\":\"720\",\"referrer\":\"https://view.awsapps.com/start/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"requestUri\":\"https://view.awsapps.com/start/#/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"pageUrlPath\":\"https://view.awsapps.com/start/#/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"buildId\":\"2026-08-10-10-36-31-962\"},{\"eventSource\":\"polaroid\",\"eventType\":\"performance\",\"timestamp\":\"1786689318157\",\"operationalData\":{\"metricList\":[{\"metricName\":\"pageLoadTime\",\"metricValue\":396,\"metricUnit\":\"Milliseconds\",\"metricDetails\":\"{\\\"rawPerformance\\\":{\\\"timeOrigin\\\":1786689317759.3,\\\"timing\\\":{\\\"connectStart\\\":1786689317760,\\\"secureConnectionStart\\\":0,\\\"unloadEventEnd\\\":1786689317775,\\\"domainLookupStart\\\":1786689317760,\\\"domainLookupEnd\\\":1786689317760,\\\"responseStart\\\":1786689317770,\\\"connectEnd\\\":1786689317760,\\\"responseEnd\\\":1786689317771,\\\"requestStart\\\":1786689317761,\\\"domLoading\\\":1786689317776,\\\"redirectStart\\\":0,\\\"loadEventEnd\\\":1786689318155,\\\"domComplete\\\":1786689318155,\\\"navigationStart\\\":1786689317759,\\\"loadEventStart\\\":1786689318155,\\\"domContentLoadedEventEnd\\\":1786689318084,\\\"unloadEventStart\\\":1786689317775,\\\"redirectEnd\\\":0,\\\"domInteractive\\\":1786689317782,\\\"fetchStart\\\":1786689317760,\\\"domContentLoadedEventStart\\\":1786689318084},\\\"navigation\\\":{\\\"type\\\":0,\\\"redirectCount\\\":0}}}\"}]},\"requestId\":\"180c48ec-12bf-4abe-bbd8-a891ea0c2f5f\",\"service\":\"aws-idc-access-portal\",\"consoleRegion\":\"us-east-1\",\"version\":\"2.8.228\",\"tabId\":\"ce44dc8b-9667-4d08-ad0e-57208053574a\",\"modality\":\"web\",\"deviceTimeZone\":\"0\",\"browserLanguage\":\"en-US\",\"deviceResolutionWidth\":\"1280\",\"deviceResolutionHeight\":\"720\",\"browserColorDepth\":\"24\",\"domain\":\"NonProd\",\"browserCookies\":\"\",\"browserViewPortWidth\":\"1280\",\"browserViewPortHeight\":\"720\",\"referrer\":\"https://view.awsapps.com/start/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"requestUri\":\"https://view.awsapps.com/start/#/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"pageUrlPath\":\"https://view.awsapps.com/start/#/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"buildId\":\"2026-08-10-10-36-31-962\"},{\"eventSource\":\"polaroid\",\"eventType\":\"performance\",\"timestamp\":\"1786689318157\",\"operationalData\":{\"metricList\":[{\"metricName\":\"domContentLoadedTime\",\"metricValue\":325,\"metricUnit\":\"Milliseconds\"}]},\"requestId\":\"d4712f2f-e274-40d3-9f68-2f27ec69ef5c\",\"service\":\"aws-idc-access-portal\",\"consoleRegion\":\"us-east-1\",\"version\":\"2.8.228\",\"tabId\":\"ce44dc8b-9667-4d08-ad0e-57208053574a\",\"modality\":\"web\",\"deviceTimeZone\":\"0\",\"browserLanguage\":\"en-US\",\"deviceResolutionWidth\":\"1280\",\"deviceResolutionHeight\":\"720\",\"browserColorDepth\":\"24\",\"domain\":\"NonProd\",\"browserCookies\":\"\",\"browserViewPortWidth\":\"1280\",\"browserViewPortHeight\":\"720\",\"referrer\":\"https://view.awsapps.com/start/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"requestUri\":\"https://view.awsapps.com/start/#/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"pageUrlPath\":\"https://view.awsapps.com/start/#/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"buildId\":\"2026-08-10-10-36-31-962\"},{\"eventSource\":\"polaroid\",\"eventType\":\"performance\",\"timestamp\":\"1786689318157\",\"operationalData\":{\"metricList\":[{\"metricName\":\"pageLoadDocumentSize\",\"metricValue\":3,\"metricUnit\":\"Kilobytes\"}]},\"requestId\":\"89a0556e-4149-4024-89c9-6e9bd7f4db97\",\"service\":\"aws-idc-access-portal\",\"consoleRegion\":\"us-east-1\",\"version\":\"2.8.228\",\"tabId\":\"ce44dc8b-9667-4d08-ad0e-57208053574a\",\"modality\":\"web\",\"deviceTimeZone\":\"0\",\"browserLanguage\":\"en-US\",\"deviceResolutionWidth\":\"1280\",\"deviceResolutionHeight\":\"720\",\"browserColorDepth\":\"24\",\"domain\":\"NonProd\",\"browserCookies\":\"\",\"browserViewPortWidth\":\"1280\",\"browserViewPortHeight\":\"720\",\"referrer\":\"https://view.awsapps.com/start/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"requestUri\":\"https://view.awsapps.com/start/#/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"pageUrlPath\":\"https://view.awsapps.com/start/#/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4Pvd2n_PxTNSaEeHAtgRhGXKuXc9A5TTwfNcGTBukcvva76f2i1H1o0QiH3GY2kXzAUyqcEIc-Tj0j0G9C9mXBl3Agj5nv59sS0hPRALEfc-UpBvqjmWLMNuV77zrkm3WHdb-B2wbGBp_fkqf0-8ynTCjpHakC-OcYf6gsBbK_MRmIVzmvqGc6cuUxR1n5lBe-TxeZ7j-ZXV8UuzXkdrmZaUV3nwQFJgpRt-DQqB4cL8CMsvK55_e5x9ARMXH9ojZ8lXl6FjrADMdoWLt2z5sgmzj98uSMny6eJyrIpxdLjfgffed4nSshBf6DLgp0Uez2ZlVwZKxTeEvlBS_yf2Rl1vv5UmDCqge4GCTAhecPTg3rIjeovOKbfkgzarHLAO6AAmvEphI3hTmXRGeFn9LIz8zKAeJimewRsc4ndrk_a4DI_MW4HdNlffGNyQ3w7YCLsFnjOr5CjfnQ-2O9sRapJabvYU1rZO1g4W6P_fCERw1RsneROC8Yvp5q2gBK6G4X_LVkRRa6OdKaGXHzNoEq_w4fxp9KdmFx4vry2bJtdVHt3gEsN-XWLSr2WN1Uxe4LpPzb46lvbtnAfyQMZPCmoQRQrof8AbCz9Mkla_P09jrDpQO7RY_Ygq-JE364DAzFKOIpo1lthFyi2SQCJO6WNGmGaJUkxfmebQMvSgOd52e5rbFb6PlPo2bF8oIAv2YbvOIjBtzBEu16P_y3UiJtR5eNlVPWwcXRFZzGePEPNfEgJ2eKuKW3mWU2HI2Y6orovT56guPr2G9GqmLcmuRxVY_y7nQLzb_DLMe25wA2RTI7h6Q\",\"buildId\":\"2026-08-10-10-36-31-962\"}],\"batchRequestId\":\"7fea7d36-79b4-4653-af1b-8196a5fb21a3\",\"consoleRegion\":\"us-east-1\",\"consoleService\":\"aws-idc-access-portal\",\"visitorInfo\":\"\",\"clogCapturedUserInfo\":\"\"}",
+      "timestamp": 1786689321.1061893
+    },
+    {
+      "url": "https://us-east-1.signin.aws/platform/config?directoryId=",
+      "method": "GET",
+      "headers": {
+        "origin": "https://us-east-1.signin.aws",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.6562097
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/translation.json",
+      "method": "GET",
+      "headers": {
+        "origin": "https://us-east-1.signin.aws",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.656478
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/errors.json",
+      "method": "GET",
+      "headers": {
+        "origin": "https://us-east-1.signin.aws",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.6567187
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/common.json",
+      "method": "GET",
+      "headers": {
+        "origin": "https://us-east-1.signin.aws",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.6570158
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/forgotPasswordSuccessPage.json",
+      "method": "GET",
+      "headers": {
+        "origin": "https://us-east-1.signin.aws",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.657226
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/insecurePasswordPopover.json",
+      "method": "GET",
+      "headers": {
+        "origin": "https://us-east-1.signin.aws",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.657421
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/css/app.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.6575987
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/js/app.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689321.6577895
+    },
+    {
+      "url": "https://d35uxhjf90umnp.cloudfront.net/index.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689329.2642996
+    },
+    {
+      "url": "https://us-east-1.signin.aws/platform/d-9067642ac7/api/execute",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-amzn-requestid": "1d81f8f4-6d1b-450e-a55c-fa27bead19de",
+        "x-amz-date": "Fri, 14 Aug 2026 06:35:29 GMT",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json; charset=UTF-8"
+      },
+      "post_data": "{\"stepId\":\"\",\"workflowStateHandle\":\"a652db39-e63f-4634-a993-242a5a9229f5\",\"inputs\":[{\"input_type\":\"FingerPrintRequestInput\",\"fingerPrint\":\"ECdITeCs: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\"}],\"requestId\":\"1d81f8f4-6d1b-450e-a55c-fa27bead19de\"}",
+      "timestamp": 1786689329.2651324
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/legalFooter.json",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689330.1979063
+    },
+    {
+      "url": "https://prod.assets.shortbread.aws.dev/shortbread.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689330.1981447
+    },
+    {
+      "url": "https://prod.assets.shortbread.aws.dev/shortbread.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689330.1983418
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/static/img/builderid_dark_background.png",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/assets/css/app.css",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689330.1989622
+    },
+    {
+      "url": "https://us-east-1.signin.aws/metrics/fingerprint",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": "name=IsFingerprintGenerated:Success&value=ECdITeCs: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&operation=AWSSignin:FingerprintMetrics:start",
+      "timestamp": 1786689330.2148237
+    },
+    {
+      "url": "https://us-east-1.signin.aws/platform/d-9067642ac7/api/execute",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-amzn-requestid": "77abdda2-de62-49f3-bced-1e4c78ebe173",
+        "x-amz-date": "Fri, 14 Aug 2026 06:35:30 GMT",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json; charset=UTF-8"
+      },
+      "post_data": "{\"stepId\":\"start\",\"workflowStateHandle\":\"508bc9d7-94e6-49c2-b42a-363c7f28e46e\",\"inputs\":[{\"input_type\":\"FingerPrintRequestInput\",\"fingerPrint\":\"ECdITeCs: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\"}],\"requestId\":\"77abdda2-de62-49f3-bced-1e4c78ebe173\"}",
+      "timestamp": 1786689330.215173
+    },
+    {
+      "url": "https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=checkForCookieConsent&payload=%7B%22timestamp%22%3A1786689330276%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22us-east-1.signin.aws%22%2C%22url%22%3A%22https%3A%2F%2Fus-east-1.signin.aws%2Fplatform%2Fd-9067642ac7%2Flogin%3FworkflowStateHandle%3Da652db39-e63f-4634-a993-242a5a9229f5%22%2C%22shortbreadCommit%22%3A%221.1.1%22%2C%22status%22%3A%22Consent%20cookie%20not%20present%22%7D",
+      "method": "HEAD",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689330.2794833
+    },
+    {
+      "url": "https://prod.tools.shortbread.aws.dev/1x1.png?awsccc=1786689330278",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689330.279747
+    },
+    {
+      "url": "https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=geolocationLatency&payload=%7B%22timestamp%22%3A1786689330298%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22us-east-1.signin.aws%22%2C%22url%22%3A%22https%3A%2F%2Fprod.tools.shortbread.aws.dev%2F1x1.png%22%2C%22shortbreadCommit%22%3A%221.1.1%22%2C%22metric%22%3A20%2C%22region%22%3A%22NON-EU%22%2C%22detail%22%3A%22Geolocation%20Response%20Received%22%2C%22status%22%3A403%7D",
+      "method": "HEAD",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689330.3016694
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/static/img/builderId_header_logo.png",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/assets/css/app.css",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689331.9251697
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/usernamePage.json",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689331.9307792
+    },
+    {
+      "url": "https://us-east-1.signin.aws/metrics/fingerprint",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": "name=IsFingerprintFileLoaded:Success&value=1&operation=AWSSignin:FingerprintMetrics:OnLoad_Username_Page",
+      "timestamp": 1786689331.9310753
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/static/icons/SVG/GoogleLight.svg",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689333.0378234
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/static/icons/SVG/AppleLight.svg",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689333.0380967
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/static/icons/SVG/GitHubLight.svg",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689333.0382984
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/static/icons/SVG/AmazonLight.svg",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689333.0384748
+    },
+    {
+      "url": "https://vs.aws.amazon.com/token",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": "{}",
+      "timestamp": 1786689336.053112
+    },
+    {
+      "url": "https://us-east-1.signin.aws/platform/d-9067642ac7/api/execute",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-amzn-requestid": "01a8460b-098a-4d4c-a4dc-945c1af1ca14",
+        "x-amz-date": "Fri, 14 Aug 2026 06:35:36 GMT",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json; charset=UTF-8"
+      },
+      "post_data": "{\"stepId\":\"get-identity-user\",\"workflowStateHandle\":\"159e1e9c-142b-4471-a511-db254b155c4b\",\"actionId\":\"SUBMIT\",\"inputs\":[{\"input_type\":\"UserRequestInput\",\"username\":\"5hjv38wbpu@havenhaus.in\"},{\"input_type\":\"ApplicationTypeRequestInput\",\"applicationType\":\"SSO_INDIVIDUAL_ID\"},{\"input_type\":\"UserEventRequestInput\",\"directoryId\":\"d-9067642ac7\",\"userName\":\"5hjv38wbpu@havenhaus.in\",\"userEvents\":[{\"input_type\":\"UserEvent\",\"eventType\":\"PAGE_SUBMIT\",\"pageName\":\"IDENTIFICATION\",\"timeSpentOnPage\":4115}]},{\"input_type\":\"FingerPrintRequestInput\",\"fingerPrint\":\"ECdITeCs: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\"}],\"visitorId\":\"9acfff7d-d992-ae51-c860-99a56efd8bd4\",\"requestId\":\"01a8460b-098a-4d4c-a4dc-945c1af1ca14\"}",
+      "timestamp": 1786689341.055844
+    },
+    {
+      "url": "https://d2c.aws.amazon.com/csds/collector/v1/events/batch",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "accept": "application/json",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/json",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": "{\"batchId\":\"D2CLogger\",\"schemaVersion\":\"1.0.0\",\"batchEvents\":[{\"pageURL\":\"https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5\",\"eventType\":\"logEvent\",\"eventTimestamp\":1786689336118,\"customData\":{\"timeTakenToFetchVID\":\"68.90000000596046\",\"logLevel\":\"info\"},\"orgId\":\"awsme_scode\"}]}",
+      "timestamp": 1786689341.0562744
+    },
+    {
+      "url": "https://us-east-1.signin.aws/platform/d-9067642ac7/api/execute",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-amzn-requestid": "13e682bc-2c29-45ad-a6d0-dd769ff2902d",
+        "x-amz-date": "Fri, 14 Aug 2026 06:35:37 GMT",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json; charset=UTF-8"
+      },
+      "post_data": "{\"stepId\":\"get-identity-user\",\"workflowStateHandle\":\"159e1e9c-142b-4471-a511-db254b155c4b\",\"actionId\":\"SIGNUP\",\"inputs\":[{\"input_type\":\"UserRequestInput\",\"username\":\"5hjv38wbpu@havenhaus.in\"},{\"input_type\":\"FingerPrintRequestInput\",\"fingerPrint\":\"ECdITeCs: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\"}],\"visitorId\":\"9acfff7d-d992-ae51-c860-99a56efd8bd4\",\"requestId\":\"13e682bc-2c29-45ad-a6d0-dd769ff2902d\"}",
+      "timestamp": 1786689341.0574195
+    },
+    {
+      "url": "https://us-east-1.signin.aws/platform/d-9067642ac7/signup/api/execute",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/signup?workflowStateHandle=07d28cdc-4c14-4710-a420-6aad4d985652",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-amzn-requestid": "02719a6c-6fbf-491f-991a-7083d1edb036",
+        "x-amz-date": "Fri, 14 Aug 2026 06:35:38 GMT",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json; charset=UTF-8"
+      },
+      "post_data": "{\"stepId\":\"\",\"workflowStateHandle\":\"07d28cdc-4c14-4710-a420-6aad4d985652\",\"inputs\":[{\"input_type\":\"UserRequestInput\",\"username\":\"5hjv38wbpu@havenhaus.in\"},{\"input_type\":\"FingerPrintRequestInput\",\"fingerPrint\":\"ECdITeCs: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\"}],\"visitorId\":\"9acfff7d-d992-ae51-c860-99a56efd8bd4\",\"requestId\":\"02719a6c-6fbf-491f-991a-7083d1edb036\"}",
+      "timestamp": 1786689341.0582006
+    },
+    {
+      "url": "https://us-east-1.signin.aws/platform/d-9067642ac7/signup/api/execute",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://us-east-1.signin.aws/platform/d-9067642ac7/signup?workflowStateHandle=07d28cdc-4c14-4710-a420-6aad4d985652",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-amzn-requestid": "5abb049f-80cd-4f07-8e48-e81fe0860f5a",
+        "x-amz-date": "Fri, 14 Aug 2026 06:35:38 GMT",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json; charset=UTF-8"
+      },
+      "post_data": "{\"stepId\":\"start\",\"workflowStateHandle\":\"c51d7276-c6f4-4788-a738-f1767d1c7331\",\"inputs\":[{\"input_type\":\"UserRequestInput\",\"username\":\"5hjv38wbpu@havenhaus.in\"},{\"input_type\":\"FingerPrintRequestInput\",\"fingerPrint\":\"ECdITeCs:9Zkusa8RZmiVfVfnqoS4LY1bHrozSDQxDhjOMad1wYa+LjJ0OfG6ki/xwvJN6GjsqoobXxvcyYjCItGnarpl9W6VNGFpOGW3sEdnw46C1XbokOndOmvt41uTvDfeBYchKyKGgO27yXo2LBGnG0nb7YEwR7tBJ4Bogxhc106EHKEUysrIufhP0ONvlhoEG9/J1oQlPvhpahdtVvrzKzWH2zZhWsNYf8WjP84iLgJmq29zfwZPimXKoIiAG0HrglK1J1mfXbRrimSBdpXyf/GtoQB1z6dcvBOWum0StLD4HeoeAVSx0Tq/+h4IehNDTzH2ZySKiR+1s3AIa2uimElh59kdZ1qt3EgD85gbi1hW+5xBGO5z5AEXtILACpiuBYkAVDyJnHmEtg02/2Qg/epb0kQSrCPVd9XHh4ZVvcsPbB99oI3dh82NjeD4lCHph6nAsWjsoUIrfgclPFHWqXcYULmt3MJjNVol8nPAAvq6HRA44MDyDCuPkzOdYFj7K3h8jwXY0RNVKwNC1N+SNfx9MAKs3D5CIoA7aHHduLv1wHC+CLEJ8xN+go4AbyWeWYUxdBU1uCqCNlvwluKN62Jmup1vmjkPhSd6E5TAZxulurGyCrC7pYdZIFohof5N08wa+OzIDWATmwCyEoFbCxBINKR1f7reowKGrt059UgM13oeZTHLXkIpITveTJVe1ARcDfiHwb4cm+l8Yy6/bjMDY8qX8Q3+J7tvnHzeIFBfVHt/CzV/Pw7V+yYAVIhiuaJdlv0Bti7EbCwTc88AOOxg++b+INAisng0qAgtWUOSeFkjM3zdUQpqEsUJnq6h/fLhCyWH5JRn9EIhAVmpHmTKek7Gh73DIxcRo7vH6yiXAJT5+zeB4nso1v61lmtxMy5Xq83IYuUtNvFUfrKga/3JCcZOkGLU8B5mKT9DghXnXIPUhNcxK0sO84+HJLRFHBW+AoOBko3mWhVJdAAHyoSEOS1TXaCUAaUvralYqxs1eXCexAsF1ZAxpMAezqZQHeYkMWMRkOduLvLzpnPDt5QghIUltcPNHDGvQ3VvQPIPs0k6+ASimXkjG2LuzXw07XVa21UitLLKWjpwZYqaJZTE3+TZrU/wY+CtMRpW6sSyFAVxebCTyEyHJ3FgZ8i1dNh7nxW1mqk2TQTCX0T5CSrPWLwnqLu/TJ/q8JtihZlSUum2wY6Pbe3x2Dlz5z4vqeMoMQmOaxZqYWyv7t4WJEpM1HlNooixXoUZOhf7n+LZXslornfp/eXV7TKT1RbwI7O5DCJAgdmLpBUyVD+RxUN1MwxwNv6oHVzcSOgYKfLyRLa4EsXA3+6dw8teBHBoIJOv8v5rN200VVFjEuuvE9zBkKIwBbbWQRW1jYs18jxM1CgpFNt/sSJCye2kBUsRItKCGhHa3OonW0pJfq9aa6/3v63ZVXiBAHXYepCzCLHfxs2KDZKZQ/yPf47TfOnHykjwn3sWK+QkbELCCzgwJvS9AoNI+FD0wAL9LgMPivv94tqDMs4LSfcqozyLU1est1dwYSkN40nSFgyQSfBL1NPLcSjfqSmf/o+3WRE2ezqA3c44vCBT66ekvd+gU82jDf6/8C6YgImYGs50sGzbJDMKO0x9yqZGgUVXYkHczYvewsBDKsLLIfR8Z2H0kNtuvA4Fta2hehbdp3DRTnOv2WrAergoF6Axws5kaWQ37h9N0ad1U3WomS3Hffxf9xuG7/QlQXdAgWGc2YfHHRlFhSJ/8e2Bs19V6HfZJ2Ws6zTKIN/PUGu2eU7XQSrQor++43LnsrkwPBlrTi7rwg0kqW24JTtykQmqF0NQlQV7f2BpdMVwazdeZHSlFc4FHfoQAZtOCT73OgbCe5NVFZX4+Py1/SozkQ5RbRBbc+mlsGtj1bcwcXtGiG6tVMecQctY0aOUEUmdRNozlwVHaWT9oRyiG9cUTIa7QN3brQJoGfcdAwJe+UIbSZZBn4Zi35v2y0PL8JLyUh6g2GHDQi4g1kH+OsZ3FCYa9tePXpgNkEi2AMcvhYFhUXZn/9JZ3iwVSduNrZ0CbaUEMmJzarHPzw3ZmeqT/MkFO+ev71zDQwv4tREIeXNUt96uIUKnpgdU++4vYI8vn7dRxMbQClf7nIzFf0v2D+1MP03Iph9kTW8BFiRxgs++CH72vArDipClIPSKs3mZxMOHSWE6MnWW+2fpDZGJJpP1GO7Vr714EpsXmzNGyBdxOzeLCmOub/ke4NXTblUeNbCeeozR+Qgd4Qod8dUsTGZIKxCo1/JquFDEYcqNFP1dyf2bpv8fnFWZfTU74RTL9x4mNLR4q7gfySzLJR7cx7tN+YXcGWVVNIX/ZZ02dOiEj+PDwBfh6oRqanQcoOs9PA26cA8HWO6hcJGLaL+WhGyqRZc3OyEK4Bah1NjGatEHF6C8RBj4eOp0s3fWVa/1gwDxe5habilV4NHXwXtdJ0jrx2Q0V+liXaZM62I/dwZg5Y7pwiFGtyR0peR28wpMv4qfJVrER4Ik6VM3oKkUKBYB42hgjilpLO745pU1rUYEGx6MVZN+AjE9J1ZU96EBBQaaXz7NnjHe33NBL/wzTrXCfXRfHHhva3B/QYhzCVs8mD2MSAn0T/4ZP7ekcIy6ba1ePsz4KLujGyIfy4K3GtealfdvtFC+jNxJxb0gCQTXraL7aQjY+vNd0Kz177KTWxpFxzqi6S3n9zUCmUrdVx1TTSF8zPRA0nRvDFYtcPbQaUCymFKAL3vmsUXwg8dqoJvWRjarWWag38Il+7P1LPiQNSUeK2pTmU7AtABlbJ0+VnVDL0KEZIjDg2gh1Dsb1irM43Kk8DNfugqkqBLbdmCyiHLWX6g2a6D2DwwZSRz6Zvh/OPrxnFODGgv8u7HVVirCWkEyoUxfZGsbS0zTEtjhHNOGl+dio6fe5IAcYwVTm9YYubFb0jFD/dxCUjke3Icmqd55upvhfsgEwYcoVl/+CVzl8uOJwlTlUg3vBMmyE8HFVPeLkYTcdL4yTtqnfkTPEnDo3IFipi/G/5gXjuMv6o5Ng6qD3DSu48ohMPHJS3c5tA+OUgiUXxIH78qTh7qfXBCVu7IAnGiKQXGBvk2aOn86A7wi8QghZoiUJ+vlkUPX0WWG9IoK0T3YhOXh3CnMr4Oe2awS0/oSN8bnOjj7G6X6Fc5y3XZEqq4Cj+nSxq/NwstffpeAghezC5r84keL8kJrUXqL4Svd1/VkIIiLhNXZinAqrbhQLSs5VDmWY7pKuz0ac3BmUJHY2LJL/D2ohr9/PP7nRgKADc8ba2CnWRn0Fv2QDPm1pqSWhI9Y/jdt+RAr4ukfI4/yv1utNyEIHm82RraQl35RuVWdxsQXptErRyDt5NJ746KWLBoXLp1vSHXEuW5qRiv8MksjYtwfi1lpUNddMh84waipl648EXdJO5hQ7KT9KB/kNuc9POJf3PXe00BC8YGBnNdLbMebb8FNn1AfRzWYtUezuBOq3Ob5aA+HdJqRlCF0DBv0XGsIXBRL+1q7aIFSQEYsALugKJSkegFtZIH8VpjUdO7an13QwdgySivuZRzD/vF+Kk93GHLtAJMameneQgNCZtLG40u7JgHGHeLUME/LR5S4Fu5T8+VrQhNo1fCXiJaujgiVDUjTF33+aoT2jv8cVCbRtf6TpdELifU0mFmrw5vakOHF3hju2TXoz4RMFpEtd2TXh+B3/jjaF2pp+SgczicMkgutURBWheOWe0VQJwxXJQaAfQapCRWYYw+/UltDMAosuyTfZBqh8q8A4rOdBQjN0yq8KnFCSzDCBF5SoMvuLAc4t0UfdvOOPmEQhhy8yYFU6VR384n8N5uI3pVQZn0kVuUdb3IDK8L1ewBh5Nq2wjQj1JLY5pjmZOHjS829jwnqOJ0lFWveMpW+rLzfTNDiJkyugo7SluqyHfJ7ZSpSa7AvMcPmV0B/4wHD8QR9LL+xaMTrjOqNMZ85lNLF92z2SdU7QIDx0EmngjxS+lNmNwzRqp1WzNikbKLljF9TghiQ39P+DdnLcD63pFSOz3zVYS280hPDuAzOpCcoBIp/kMZMCbc3KK9yMmHRvrn/YWXu2eGkVE0dSI0hol4Ep2K1mtcBbLCCMLHWGYRnpasBCY+HW8ZPRdBxISZSH8pXoJq6JKiFHdBDoUlFCF6DSTLw9M4XTRyZ/9KfEydaSSqItJpWKBQf9EpWWmOJ1u/U8efKdO6K2lzCDmOX0RbHJssD2djSvtzUzj34I35jpWX07BG2tPcPuIqxx3yaegmOg24trNDSW9bXXxDXxs5M0C8VPFLAmDQYs038PtnX0cqSa4hn+wJS+7HDpJmPRBR5WJiPd34kBxgP0Hd7dyyzpHzE8PiD5SPFeQd3+ej9m4DKLZ8oiUYUUxZtDpNnCXnz/OUvgvw6RWBQw/BqQxxZOzoD1zWTrRquG/4zd7FDXJQKlpbpcUuRgqOm2rGPmtbT8Dclt3nFAw+U56BUcUTUuupckUhYuEP6Xin84ShUBkNgUJELkBL0qHW5vnlbLRPxHTSK0A+Q6Gdp+7CM7r6NqBIoQbxN7elaJPtd8WqmLYrR8hdJJHac9Xn9Q3B7mDLj2opTUbVaQq8IPawnRrX43zVZxmHVSzI2+w8G1h8IHOOsuKzEKQz4b1uvOBPt6SVDY3fCtO9iExmAHFN62quoYWhJzD+Q7kUgLUm6F/lHJ2nTjVyiIrYzJjL0JIWm3A21d++nQeLrT5tBr3IoMtPXSxg3g5zOO1JEHZxVo5E7DXsq/5k8zNqdpzKDrEz2AIukK+QIUxwzjv9DbuhHj4CyEfHqtLWhFKq4YvCVTxVEBGpI8zVuAy7DU8MbjWvM9n49RAirRbsRc2Q0kqWYEzu+SItOd24dXrjy6t0WSS3Aka5mwOVV8oiBOU8aoMN9YIHYO4oZb0Rm5nIKLCd6YWlzEEmed2RlMiz057n+qO/MJMNQhyenPovCx2bO88+gCfjTQy1TKle0QxSUazFfZw9TbvJ/rYdsYcnG1eRi44XcByAkkXKjQxEJw/yOdc0UkTsdeMKVb4Sfnd/siMIzVbHCVAt47/OOdiJW6S48kslVGpZtnqSent/AL9+57dGddWiAxtoAKHDbomhS3uDSlyMzeUqr8ugKlMekHR/sQtg7Q0hvDnN+Ji9g5oBMswpsbBxMM9owJjgZ0PQ67Go6AguhnHBg0AEfujI3SIykI5n3W3eTcpzXrSgj+OUdW3lwOmvWmDVqBLRvLpZ06p2sdBFODbg70Ek3MVnN0BzkCVPGEDC2JjnDyshA45NgChTsAZo05OXFxqXbE8oJtXHs33kwlNM2socS/5qKQfMNo8FT9KiVUhHFnA2n8cn1qMdJ00eZreUisYoMVcQ05mURvytWNkj1wqre/UWkoGRrplGGsYXdA57Pf5OGvdzfX0vRFy7+4RnzTmhI/QUWayIo7auZZaCffy7Zqu8qUQmgHx2yGPPph6PV/NT7C3CELPAU28NS0IGnnm3l1iFo78XConj++FvXLU5StQeR2SABY0zDr5eZS0qZ1X1hUQdy8dNY5l6auThJgzHticN5RPkYfn3SanOW78TLf7WRCUHeLBbkPz/SDwMYmTLlU6darup5TMYbgY1RozeiCShnBYfoL+j6errVoS+a9Z7SuKWjDNF2AbDAvAaXLQwN5JoBe/XYgPF2bF9RGwxECbblZsffvREp1uhxWKY2qCGLlzAA/lPSVkg05UpVN7pzLedhbGgmu0yYgFW39IQ5q+j+Qi8PdwOenzhLM8tojs0UX68uT9NnZgbZdmf86G/6CmM0g69U4GHH01ugvIcgWoi5fL+RZap99E84gf9UUV5k\"}],\"visitorId\":\"9acfff7d-d992-ae51-c860-99a56efd8bd4\",\"requestId\":\"5abb049f-80cd-4f07-8e48-e81fe0860f5a\"}",
+      "timestamp": 1786689341.058823
+    },
+    {
+      "url": "https://profile.aws.amazon.com/?workflowID=5ef05f15-0f06-4b50-b174-547c934bd6cb",
+      "method": "GET",
+      "headers": {
+        "referer": "https://us-east-1.signin.aws/",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\""
+      },
+      "post_data": null,
+      "timestamp": 1786689341.0596268
+    },
+    {
+      "url": "https://profile.aws.amazon.com/dist/main/app_5c61171ec757a8a618d4.min.css",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://profile.aws.amazon.com/?workflowID=5ef05f15-0f06-4b50-b174-547c934bd6cb",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689341.1400747
+    },
+    {
+      "url": "https://profile.aws.amazon.com/dist/main/app_23c62decfc35ec17ad34.min.js",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://profile.aws.amazon.com/?workflowID=5ef05f15-0f06-4b50-b174-547c934bd6cb",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689341.1403205
+    },
+    {
+      "url": "https://profile.aws.amazon.com/dist/locales/nav-en-US_254d2e9f8362a2975ed05b6e14fc7a38.json",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://profile.aws.amazon.com/?workflowID=5ef05f15-0f06-4b50-b174-547c934bd6cb",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689347.168211
+    },
+    {
+      "url": "https://profile.aws.amazon.com/dist/locales/en-US_a47124c2ffde97ea4d40696e7c2c6248.json",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://profile.aws.amazon.com/?workflowID=5ef05f15-0f06-4b50-b174-547c934bd6cb",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689347.1685548
+    },
+    {
+      "url": "https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=uiMounted&payload=%7B%22timestamp%22%3A1786689343438%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22.aws.amazon.com%22%2C%22url%22%3A%22https%3A%2F%2Fprofile.aws.amazon.com%2F%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%23%2Fsignup%2Fstart%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%22%7D",
+      "method": "HEAD",
+      "headers": {
+        "referer": ""
+      },
+      "post_data": null,
+      "timestamp": 1786689347.1687539
+    },
+    {
+      "url": "https://profile.aws.amazon.com/api/get-config",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://profile.aws.amazon.com/?workflowID=5ef05f15-0f06-4b50-b174-547c934bd6cb",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/json;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": "{}",
+      "timestamp": 1786689347.169129
+    },
+    {
+      "url": "https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=checkForCookieConsent&payload=%7B%22timestamp%22%3A1786689343456%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22profile.aws.amazon.com%22%2C%22url%22%3A%22https%3A%2F%2Fprofile.aws.amazon.com%2F%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%23%2Fsignup%2Fstart%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%22%2C%22status%22%3A%22Consent%20cookie%20not%20present%22%7D",
+      "method": "HEAD",
+      "headers": {
+        "referer": ""
+      },
+      "post_data": null,
+      "timestamp": 1786689347.169285
+    },
+    {
+      "url": "https://prod.tools.shortbread.aws.dev/1x1.png?awsccc=1786689343456",
+      "method": "GET",
+      "headers": {
+        "referer": ""
+      },
+      "post_data": null,
+      "timestamp": 1786689347.1694927
+    },
+    {
+      "url": "https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=checkForCookieConsent&payload=%7B%22timestamp%22%3A1786689344352%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22profile.aws.amazon.com%22%2C%22url%22%3A%22https%3A%2F%2Fprofile.aws.amazon.com%2F%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%23%2Fsignup%2Fstart%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%22%2C%22status%22%3A%22Consent%20cookie%20not%20present%22%7D",
+      "method": "HEAD",
+      "headers": {
+        "referer": ""
+      },
+      "post_data": null,
+      "timestamp": 1786689347.171068
+    },
+    {
+      "url": "https://prod.tools.shortbread.aws.dev/1x1.png?awsccc=1786689344352",
+      "method": "GET",
+      "headers": {
+        "referer": ""
+      },
+      "post_data": null,
+      "timestamp": 1786689347.1712801
+    },
+    {
+      "url": "https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=uiMounted&payload=%7B%22timestamp%22%3A1786689344354%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22.aws.amazon.com%22%2C%22url%22%3A%22https%3A%2F%2Fprofile.aws.amazon.com%2F%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%23%2Fsignup%2Fstart%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%22%7D",
+      "method": "HEAD",
+      "headers": {
+        "referer": ""
+      },
+      "post_data": null,
+      "timestamp": 1786689347.171522
+    },
+    {
+      "url": "https://profile.aws.amazon.com/api/get-app-context",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://profile.aws.amazon.com/?workflowID=5ef05f15-0f06-4b50-b174-547c934bd6cb",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/json;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": "{\"workflowID\":\"5ef05f15-0f06-4b50-b174-547c934bd6cb\"}",
+      "timestamp": 1786689347.1719081
+    },
+    {
+      "url": "https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=uiMounted&payload=%7B%22timestamp%22%3A1786689344360%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22.aws.amazon.com%22%2C%22url%22%3A%22https%3A%2F%2Fprofile.aws.amazon.com%2F%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%23%2Fsignup%2Fstart%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%22%7D",
+      "method": "HEAD",
+      "headers": {
+        "referer": ""
+      },
+      "post_data": null,
+      "timestamp": 1786689347.1720982
+    },
+    {
+      "url": "https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=checkForCookieConsent&payload=%7B%22timestamp%22%3A1786689344362%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22profile.aws.amazon.com%22%2C%22url%22%3A%22https%3A%2F%2Fprofile.aws.amazon.com%2F%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%23%2Fsignup%2Fstart%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%22%2C%22status%22%3A%22Consent%20cookie%20not%20present%22%7D",
+      "method": "HEAD",
+      "headers": {
+        "referer": ""
+      },
+      "post_data": null,
+      "timestamp": 1786689347.1723208
+    },
+    {
+      "url": "https://prod.tools.shortbread.aws.dev/1x1.png?awsccc=1786689344362",
+      "method": "GET",
+      "headers": {
+        "referer": ""
+      },
+      "post_data": null,
+      "timestamp": 1786689347.1725948
+    },
+    {
+      "url": "https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=uiMounted&payload=%7B%22timestamp%22%3A1786689345036%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22.aws.amazon.com%22%2C%22url%22%3A%22https%3A%2F%2Fprofile.aws.amazon.com%2F%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%23%2Fsignup%2Fstart%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%22%7D",
+      "method": "HEAD",
+      "headers": {
+        "referer": ""
+      },
+      "post_data": null,
+      "timestamp": 1786689347.1732612
+    },
+    {
+      "url": "https://profile.aws.amazon.com/dist/images/boost-aws-logo.png",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://profile.aws.amazon.com/?workflowID=5ef05f15-0f06-4b50-b174-547c934bd6cb",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689347.1735015
+    },
+    {
+      "url": "https://profile.aws.amazon.com/dist/images/sono-background-light.png",
+      "method": "GET",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://profile.aws.amazon.com/?workflowID=5ef05f15-0f06-4b50-b174-547c934bd6cb",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null,
+      "timestamp": 1786689347.1736994
+    },
+    {
+      "url": "https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=uiMounted&payload=%7B%22timestamp%22%3A1786689345107%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22.aws.amazon.com%22%2C%22url%22%3A%22https%3A%2F%2Fprofile.aws.amazon.com%2F%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%23%2Fsignup%2Fstart%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%22%7D",
+      "method": "HEAD",
+      "headers": {
+        "referer": ""
+      },
+      "post_data": null,
+      "timestamp": 1786689347.1738796
+    },
+    {
+      "url": "https://profile.aws.amazon.com/api/start",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://profile.aws.amazon.com/?workflowID=5ef05f15-0f06-4b50-b174-547c934bd6cb",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/json;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": "{\"workflowID\":\"5ef05f15-0f06-4b50-b174-547c934bd6cb\",\"browserData\":{\"attributes\":{\"fingerprint\":\"ECdITeCs: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\",\"eventTimestamp\":\"2026-08-14T06:35:45.106Z\",\"timeSpentOnPage\":\"41\",\"eventType\":\"PageLoad\",\"ubid\":\"118-672761-7170184\"},\"cookies\":{}}}",
+      "timestamp": 1786689347.1741662
+    },
+    {
+      "url": "https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=uiMounted&payload=%7B%22timestamp%22%3A1786689345516%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22.aws.amazon.com%22%2C%22url%22%3A%22https%3A%2F%2Fprofile.aws.amazon.com%2F%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%23%2Fsignup%2Fenter-email%22%7D",
+      "method": "HEAD",
+      "headers": {
+        "referer": ""
+      },
+      "post_data": null,
+      "timestamp": 1786689347.174833
+    },
+    {
+      "url": "https://prod.log.shortbread.aws.dev/1x1.png?severity=info&message=uiMounted&payload=%7B%22timestamp%22%3A1786689350708%2C%22logVersion%22%3A%221%22%2C%22domain%22%3A%22.aws.amazon.com%22%2C%22url%22%3A%22https%3A%2F%2Fprofile.aws.amazon.com%2F%3FworkflowID%3D5ef05f15-0f06-4b50-b174-547c934bd6cb%23%2Fsignup%2Fenter-email%22%7D",
+      "method": "HEAD",
+      "headers": {
+        "referer": ""
+      },
+      "post_data": null,
+      "timestamp": 1786689350.7228935
+    },
+    {
+      "url": "https://profile.aws.amazon.com/api/send-otp",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://profile.aws.amazon.com/?workflowID=5ef05f15-0f06-4b50-b174-547c934bd6cb",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "application/json;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": "{\"workflowState\":\"0b1b50e9-55ec-4766-ac7e-510393a58b96\",\"email\":\"5hjv38wbpu@havenhaus.in\",\"browserData\":{\"attributes\":{\"fingerprint\":\"ECdITeCs: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\",\"eventTimestamp\":\"2026-08-14T06:35:50.713Z\",\"timeSpentOnPage\":\"5181\",\"pageName\":\"EMAIL_COLLECTION\",\"eventType\":\"PageSubmit\",\"ubid\":\"118-672761-7170184\"},\"cookies\":{}}}",
+      "timestamp": 1786689350.7232926
+    },
+    {
+      "url": "https://unagi-na.amazon.com/1/events/com.amazon.eel.katal.metrics.core.nexus",
+      "method": "POST",
+      "headers": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+        "content-type": "text/plain;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": "{\"cs\":{\"dct\":{\"#0\":\"site\",\"#1\":\"AWSUserProfileFrontEnd\",\"#2\":\"serviceName\",\"#3\":\"actionId\",\"#4\":\"814d472c-3a6f-4140-a3c0-614d3f898b9d\",\"#5\":\"cloudWatchDimensions\",\"#6\":\"methodName\",\"#7\":\"AppContextProvider\",\"#8\":\"metricKey\",\"#9\":\"HTTPRequest.GetConfig.StatusCode.200\",\"#10\":\"value\",\"#11\":\"isMonitor\",\"#12\":\"producerId\",\"#13\":\"katal\",\"#14\":\"schemaId\",\"#15\":\"katal.client.metrics.Counter.3\",\"#16\":\"timestamp\",\"#17\":\"messageId\",\"#18\":\"HTTPRequest.GetConfig.StatusCode.2XX\",\"#19\":\"HTTPRequest.GetConfig.Latency\",\"#20\":\"katal.client.metrics.Timer.2\",\"#21\":\"HTTPRequest.GetConfig.Failure\",\"#22\":\"beef549a-6daa-4d4e-ab7a-a08bcda62757\",\"#23\":\"SignUpContextProvider\",\"#24\":\"HTTPRequest.GetAppContext.StatusCode.404\",\"#25\":\"HTTPRequest.GetAppContext.StatusCode.4XX\",\"#26\":\"HTTPRequest.GetAppContext.Latency\",\"#27\":\"HTTPRequest.GetAppContext.Failure\",\"#28\":\"0ff52fb8-ce11-4f1d-9ec4-2a5f75232155\",\"#29\":\"Steps\",\"#30\":\"StartSignUp\",\"#31\":\"HTTPRequest.StartSignUp.StatusCode.200\",\"#32\":\"HTTPRequest.StartSignUp.StatusCode.2XX\",\"#33\":\"HTTPRequest.StartSignUp.Latency\",\"#34\":\"HTTPRequest.StartSignUp.Failure\",\"#35\":\"b5a38205-03f7-4b37-9c79-16a9501ac93c\",\"#36\":\"SignUpEmailCollectionStep\",\"#37\":\"HTTPRequest.SendOTP.StatusCode.400\",\"#38\":\"HTTPRequest.SendOTP.StatusCode.4XX\",\"#39\":\"HTTPRequest.SendOTP.Latency\",\"#40\":\"HTTPRequest.SendOTP.Failure\"}},\"events\":[{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#4\",\"#6\":\"#7\",\"#8\":\"#9\",\"#10\":1,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#15\",\"#16\":\"2026-08-14T06:35:44.127Z\",\"#17\":\"1-1786689344127-9000957796\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#4\",\"#6\":\"#7\",\"#8\":\"#18\",\"#10\":1,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#15\",\"#16\":\"2026-08-14T06:35:44.127Z\",\"#17\":\"1-1786689344127-5368029330\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#4\",\"#6\":\"#7\",\"#8\":\"#19\",\"#10\":674,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#20\",\"#16\":\"2026-08-14T06:35:44.128Z\",\"#17\":\"1-1786689344128-0371912146\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#4\",\"#6\":\"#7\",\"#8\":\"#21\",\"#10\":0,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#15\",\"#16\":\"2026-08-14T06:35:44.128Z\",\"#17\":\"1-1786689344128-1214636062\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#22\",\"#6\":\"#23\",\"#8\":\"#24\",\"#10\":1,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#15\",\"#16\":\"2026-08-14T06:35:45.035Z\",\"#17\":\"1-1786689345036-3133556098\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#22\",\"#6\":\"#23\",\"#8\":\"#25\",\"#10\":1,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#15\",\"#16\":\"2026-08-14T06:35:45.036Z\",\"#17\":\"1-1786689345036-5036925374\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#22\",\"#6\":\"#23\",\"#8\":\"#26\",\"#10\":680,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#20\",\"#16\":\"2026-08-14T06:35:45.036Z\",\"#17\":\"1-1786689345036-8222548639\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#22\",\"#6\":\"#23\",\"#8\":\"#27\",\"#10\":1,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#15\",\"#16\":\"2026-08-14T06:35:45.036Z\",\"#17\":\"1-1786689345036-0690130699\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#28\",\"#6\":\"#29\",\"#8\":\"#30\",\"#10\":41,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#20\",\"#16\":\"2026-08-14T06:35:45.108Z\",\"#17\":\"1-1786689345108-8674705309\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#22\",\"#6\":\"#23\",\"#8\":\"#31\",\"#10\":1,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#15\",\"#16\":\"2026-08-14T06:35:45.503Z\",\"#17\":\"1-1786689345503-9627274487\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#22\",\"#6\":\"#23\",\"#8\":\"#32\",\"#10\":1,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#15\",\"#16\":\"2026-08-14T06:35:45.504Z\",\"#17\":\"1-1786689345504-4022917181\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#22\",\"#6\":\"#23\",\"#8\":\"#33\",\"#10\":392,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#20\",\"#16\":\"2026-08-14T06:35:45.504Z\",\"#17\":\"1-1786689345504-1439030816\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#22\",\"#6\":\"#23\",\"#8\":\"#34\",\"#10\":0,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#15\",\"#16\":\"2026-08-14T06:35:45.504Z\",\"#17\":\"1-1786689345504-1877208812\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#35\",\"#6\":\"#29\",\"#8\":\"#36\",\"#10\":5181,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#20\",\"#16\":\"2026-08-14T06:35:50.714Z\",\"#17\":\"1-1786689350714-3724808488\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#22\",\"#6\":\"#23\",\"#8\":\"#37\",\"#10\":1,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#15\",\"#16\":\"2026-08-14T06:35:51.452Z\",\"#17\":\"1-1786689351452-4925964217\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#22\",\"#6\":\"#23\",\"#8\":\"#38\",\"#10\":1,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#15\",\"#16\":\"2026-08-14T06:35:51.452Z\",\"#17\":\"1-1786689351452-6598589304\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#22\",\"#6\":\"#23\",\"#8\":\"#39\",\"#10\":735,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#20\",\"#16\":\"2026-08-14T06:35:51.452Z\",\"#17\":\"1-1786689351452-4517736346\"}},{\"data\":{\"#0\":\"#1\",\"#2\":\"#1\",\"#3\":\"#22\",\"#6\":\"#23\",\"#8\":\"#40\",\"#10\":1,\"#11\":true,\"#12\":\"#13\",\"#14\":\"#15\",\"#16\":\"2026-08-14T06:35:51.452Z\",\"#17\":\"1-1786689351452-8278709378\"}}]}",
+      "timestamp": 1786689383.7390108
+    }
+  ],
+  "responses": [
+    {
+      "url": "https://view.awsapps.com/start/",
+      "status": 200,
+      "body": "<!doctype html><html lang=\"en\"><head><meta charset=\"UTF-8\"/><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; object-src 'none'; base-uri 'self'; img-src https://assets.sso-portal.us-east-1.amazonaws.com/ https://static.global.sso.amazonaws.com/ data: 'self'; script-src https://assets.sso-portal.us-east-1.amazonaws.com/ https://*.cdn.uis.awsstatic.com/ https://*.cdn.console.awsstatic.com/ https://*.shortbread.aws.dev/ 'self' 'sha256-Vt/GZb7qf93lF8dxC4PAyNda9wdi+lzf22x08Y98+uw=' 'sha256-OueGsZvegXq0cP4DKAOYZmt0ie/RFR1IS/MgWKovQuE=' 'sha256-32QmCwiKAk7zKbgUdWoEPxmX3QrINyVrRFgaRnStWbc='; style-src https://assets.sso-portal.us-east-1.amazonaws.com/ https://*.shortbread.aws.dev/ 'self' 'unsafe-inline'; font-src https://assets.sso-portal.us-east-1.amazonaws.com/ data: 'self'; connect-src https://portal.sso.us-east-1.amazonaws.com https://oidc.us-east-1.amazonaws.com https://log.sso-portal.us-east-1.amazonaws.com https://*.analytics.console.aws.a2z.com https://*.panorama.console.api.aws https://*.feedback.console.aws.dev https://*.shortbread.aws.dev/ 'self';\"/><title>AWS access portal</title><meta name=\"version\" content=\"2\"/><link rel=\"preconnect\" href=\"https://portal.sso.us-east-1.amazonaws.com\" crossorigin/><link rel=\"preconnect\" href=\"https://us-east-1.signin.aws\" crossorigin/><script>(function () {\n    try {\n        var e = window.navigator.userAgent,\n            r = e.indexOf('MSIE '),\n            t = e.indexOf('Trident/');\n        (r > 0 || t > 0) &&\n            document.write(\n                '<div style=\"text-align: center;\"><h1>You are using the unsupported browser Microsoft Internet Explorer. We recommend you upgrade to a modern browser. Refer to this <a href=\"https://aws.amazon.com/blogs/aws/heads-up-aws-support-for-internet-explorer-11-is-ending/\">AWS News Blog.</a></h1></div>'\n            );\n    } catch (e) {}\n})();</s",
+      "timestamp": 1786689317.7899735
+    },
+    {
+      "url": "https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5",
+      "status": 200,
+      "body": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta\n      name=\"viewport\"\n    />\n\n    <!-- Prefetch likely needed resources -->\n    <link rel=\"preload\" href=\"/platform/config?directoryId=\" as=\"fetch\" crossorigin=\"anonymous\" referrerpolicy=\"same-origin\" />\n    <link rel=\"preload\" as=\"fetch\" crossorigin=\"anonymous\" referrerpolicy=\"same-origin\" href=\"/assets/locales/en/translation.json\" />\n    <link rel=\"preload\" as=\"fetch\" crossorigin=\"anonymous\" referrerpolicy=\"same-origin\" href=\"/assets/locales/en/errors.json\" />\n    <link rel=\"preload\" as=\"fetch\" crossorigin=\"anonymous\" referrerpolicy=\"same-origin\" href=\"/assets/locales/en/common.json\" />\n    <link rel=\"preload\" as=\"fetch\" crossorigin=\"anonymous\" referrerpolicy=\"same-origin\" href=\"/assets/locales/en/forgotPasswordSuccessPage.json\" />\n    <link rel=\"preload\" as=\"fetch\" crossorigin=\"anonymous\" referrerpolicy=\"same-origin\" href=\"/assets/locales/en/insecurePasswordPopover.json\" />\n\n    <!-- DNS prefetch for external domains -->\n    <link rel=\"dns-prefetch\" href=\"//d35uxhjf90umnp.cloudfront.net\" />\n    <link rel=\"dns-prefetch\" href=\"//prod.assets.shortbread.aws.dev\" />\n    <link rel=\"dns-prefetch\" href=\"//prod.log.shortbread.aws.dev\" />\n\n    <title>Amazon Web Services</title>\n  <link rel=\"shortcut icon\" href=\"/favicon.ico\"><link href=\"/assets/css/app.css\" rel=\"stylesheet\"></head>\n  <body>\n    <noscript>You need to enable JavaScript to run this app.</noscript>\n    <div id=\"main-container\" class=\"awsui\"></div>\n  <script type=\"text/javascript\" src=\"/assets/js/app.js\"></script></body>\n</html>\n\n",
+      "timestamp": 1786689321.6822004
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/errors.json",
+      "status": 200,
+      "body": "{\"defaultErrorHeading\":\"It's not you, it's us\",\"defaultErrorText\":\"We couldn't complete your request right now. Please try again later.\",\"internalErrorHeading\":\"It's not you, it's us\",\"internalErrorText\":\"We couldn't complete your request right now. Please try again later.\",\"missingInfoErrorHeading\":\"It's not you, it's us\",\"webauthnSupportErrorHeading\":\"Oh no!\",\"webauthnSupportErrorContent\":\"Looks like your browser does not support Webauthn. Please try another browser.\",\"missingInfoErrorText\":\"We couldn't complete your request right now. Please try again later.\",\"authenticationFailedHeading\":\"Something doesn't compute\",\"authenticationFailedHeadingFriendly\":\"Sorry, we didn't catch that.\",\"authenticationFailedContent\":\"We couldn't verify your sign-in credentials. Please try again.\",\"authenticationFailedContentFriendly\":\"Some information you entered doesn't quite match our records on file. Please try again. \",\"mfaAuthenticationFailedHeading\":\"Something went wrong\",\"mfaAuthenticationFailedContent\":\"Looks like this code isn't right. Please try again.\",\"emailOTPAuthenticationFailedHeading\":\"Something went wrong\",\"emailOTPAuthenticationFailedContent\":\"Looks like the code you entered is incorrect or has expired. Check the code in your email and try again.\",\"emailOTPAuthenticationFailedContentSono\":\"The verification code that you entered does not match our system. Check the code and try again.\",\"deviceLimitExceededHeading\":\"You've maxed out\",\"deviceLimitExceededContent\":\"You cannot register any more devices of this type. Please select a different MFA device.\",\"recoveryNotEligibleHeading\":\"Account recovery is not available\",\"recoveryNotEligibleContent\":\"Password reset or account recovery is not available for this sign-in method. Please sign in using your identity provider.\",\"insufficientMfaCredentialsHeading\":\"You are required to provide multi-factor authentication (MFA) that you do not have.\",\"insufficientMfaCredentialsText\":\"Contact your administrator to resolve this proble",
+      "timestamp": 1786689323.4039307
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/forgotPasswordSuccessPage.json",
+      "status": 200,
+      "body": "{\"successHeader\":\"Reset password email sent\",\"successHeaderFriendly\":\"Check your inbox\",\"successContent\":\"Please check your inbox. If you did not receive a password reset email, confirm that your username is correct, or ask your administrator to check your registered email.\",\"successContentFriendly\":\"We just sent an email to <b>{{username}}</b> with a link to where you can change your password. <br><br> <b>Didn't see an email?</b> <br /> Check your junk or spam folders.\",\"failureHeader\":\"Error sending reset password email\",\"failureContent\":\"We were unable to send a password reset email to your inbox. Please try again later or contact your administrator if the problem persists.\",\"recoveryEmailText\":\"Send to your recovery email instead\"}",
+      "timestamp": 1786689323.4042194
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/translation.json",
+      "status": 200,
+      "body": "{}",
+      "timestamp": 1786689323.4043095
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/common.json",
+      "status": 200,
+      "body": "{\"learnMore\":\"Learn more\",\"loading\":\"Loading\",\"redirecting\":\"Redirecting...\",\"redirectingTo\":\"Redirecting to {{location}}\",\"cancel\":\"Cancel\",\"signIn\":\"Sign in\",\"verify\":\"Verify\",\"assignMFA\":\"Assign MFA\",\"done\":\"Done\",\"addAnotherDevice\":\"Add another device\",\"save\":\"Save\",\"tryAgain\":\"Try again\",\"next\":\"Next\",\"Rename\":\"Rename\",\"deviceName\":\"Device name\",\"deviceType\":\"Device type\",\"mfaName\":\"MFA name\",\"securityKeyCapitalized\":\"Security key\",\"platformCapitalized\":\"Built-in authenticator\",\"vmfaCapitalized\":\"Authenticator app\",\"webauthnCapitalized\":\"Security key or built-in authenticator\",\"emailOtpCapitalized\":\"Email\",\"securityKey\":\"security key\",\"platform\":\"built-in authenticator\",\"vmfa\":\"authenticator app\",\"webauthn\":\"security key or built-in authenticator\",\"emailOtp\":\"email\",\"multifactorAuthentication\":\"Multi-factor authentication (MFA)\",\"requestId\":\"Request ID\",\"time\":\"Time\",\"unknowRedirectHeading\":\"Unknown redirect\",\"usernameHeading\":\"Username: {{username}}\",\"defaultFormFieldErrorText\":\"Field must not be empty\",\"copied\":\"Copied\",\"continue\":\"Continue\",\"backToMFADeviceOptions\":\"Back to MFA device options\",\"or\":\"OR\",\"awsAccessPortal\":\"AWS Access Portal\",\"awsAccessPortal_aws-cn\":\"Amazon Web Services Access Portal\",\"here\":\"here\",\"recoverAccountHeader\":\"Recover account\",\"recoverAccountDescription\":\"Verify OTP via recovery email\",\"socialLoginRecoveryAlertHeading\":\"Note\",\"socialLoginRecoveryAlertDescription\":\"By continuing, you acknowledge that you must use your new password to sign in to your account, instead of your social provider. <b>You can't undo this action.</b>\"}",
+      "timestamp": 1786689323.4044073
+    },
+    {
+      "url": "https://us-east-1.signin.aws/platform/config?directoryId=",
+      "status": 200,
+      "body": "{\"features\":[\"SessionsM3Enabled\",\"CustomerContentRemovalEnabled\",\"SPInitOptimizationEnabled\",\"AssetOptimizationEnabled\",\"GlobalSSOEnabled\",\"GoogleEnabledSignin\",\"AuthorizeEnabled\",\"NeoLoginEnabled\",\"JA4FingerprintEnabled\",\"OidcRedirectUriEnabled\",\"HintSessionValidationEnabled\",\"RedirectSAMLToNewSigninDomain\",\"DeprecateAuthUserEnabled\",\"AmazonEnabledSignin\",\"AppleEnabledSignin\",\"GitHubEnabledSignin\",\"AuditIdentityFromOrchestrator\",\"DefaultSONOSignupEnabled\",\"RegistrationTESEnabled\",\"LoginTESEnabled\",\"IsBuilderIdSourceEnabled\",\"SonoLoginMarketingMetricsEnabled\",\"SocialAuthMetadataEnabled\",\"StartMFARegistrationWorkflowEnabled\",\"MOCDPhase2Enabled\",\"OIDCEnabled\",\"OIDCEnabledSignin\",\"PlatformSigninLongTermCredsEnabled\"]}",
+      "timestamp": 1786689323.4044833
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/insecurePasswordPopover.json",
+      "status": 200,
+      "body": "{\"header\":\"Frequently Asked Questions\",\"FAQs\":\"FAQs\",\"FAQOne\":\"Why am I being blocked from using this password?\",\"answerOne\":\"We have examined the password you have provided and have found it in one or more publicly known data leaks. While it may not be associated with the email you provided, to better protect your account we are preventing you from using it. To learn more about password requirements, refer to the documentation\",\"answerOneDocPath\":\"/singlesignon/latest/userguide/password-requirements.html\",\"answerOneFriendly\":\"We have examined the password you have provided and have found it in one or more publicly known data leaks. While it may not be associated with the email you provided, to better protect your account we are preventing you from using it. To learn more about password requirements, refer to the documentation\",\"answerOneDocPathFriendly\":\"/general/latest/gr/create-aws_builder_id.html\",\"FAQTwo\":\"The password I am using is new to me and I have never used it before, why am I being blocked?\",\"answerTwo\":\"While it may not be associated with your email address, the password you have provided has been found in one or more publicly known data leaks. An outside party can use the data from these leaks to gain inadvertent access to resources. To better protect your account we are preventing you from using the password provided. If you have used this password with other services we recommend you update it with them as well.\",\"FAQThree\":\"But my password meets your strength requirements, why am I being blocked?\",\"answerThree\":\"Even a strong password is vulnerable if it is known. The password you have provided has been found in one or more publicly known data leaks. To better protect your account we are preventing you from using it. To protect yourself online, we recommend using a password manager to generate unique passwords per account, using multi-factor authentication on all accounts where it is available, and signing up for a password leak notification servic",
+      "timestamp": 1786689323.4045343
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/css/app.css",
+      "status": 200,
+      "body": ":root{--awsui-color-grey-100: #fafafa;--awsui-color-grey-150: #f2f3f3;--awsui-color-grey-200: #eaeded;--awsui-color-grey-300: #d5dbdb;--awsui-color-grey-400: #aab7b8;--awsui-color-grey-450: #95a5a6;--awsui-color-grey-500: #879596;--awsui-color-grey-550: #687078;--awsui-color-grey-600: #545b64;--awsui-color-grey-650: #414750;--awsui-color-grey-700: #2a2e33;--awsui-color-grey-750: #21252c;--awsui-color-grey-800: #1a2029;--awsui-color-grey-900: #16191f;--awsui-color-grey-950: #222222;--awsui-color-grey-transparent-heavy: rgba(0, 28, 36, 0.5);--awsui-color-grey-transparent: rgba(0, 28, 36, 0.3);--awsui-color-grey-transparent-light: rgba(0, 28, 36, 0.15);--awsui-color-grey-opaque-25: rgba(255, 255, 255, 0.25);--awsui-color-grey-opaque-40: rgba(0, 0, 0, 0.4);--awsui-color-grey-opaque-50: rgba(0, 0, 0, 0.5);--awsui-color-grey-opaque-70: rgba(255, 255, 255, 0.7);--awsui-color-grey-opaque-80: rgba(22, 25, 31, 0.8);--awsui-color-grey-opaque-90: rgba(242, 243, 243, 0.9);--awsui-color-orange-100: #fef6f0;--awsui-color-orange-300: #f7bf9c;--awsui-color-orange-500: #ec7211;--awsui-color-orange-600: #eb5f07;--awsui-color-orange-700: #dd6b10;--awsui-color-blue-100: #f1faff;--awsui-color-blue-300: #99cbe4;--awsui-color-blue-400: #44b9d6;--awsui-color-blue-500: #00a1c9;--awsui-color-blue-600: #0073bb;--awsui-color-blue-700: #0a4a74;--awsui-color-blue-900: #12293b;--awsui-color-blue-opaque: rgba(51, 136, 221, 0.5);--awsui-color-green-100: #f2f8f0;--awsui-color-green-300: #a5d099;--awsui-color-green-500: #6aaf35;--awsui-color-green-600: #1d8102;--awsui-color-green-700: #1a520f;--awsui-color-green-900: #172211;--awsui-color-red-100: #fdf3f1;--awsui-color-red-300: #f2ada0;--awsui-color-red-500: #ff5d64;--awsui-color-red-600: #d13212;--awsui-color-red-700: #7c2718;--awsui-color-red-900: #270a11;--awsui-color-black: #000000;--awsui-color-white: #ffffff;--awsui-color-aws-squid-ink: #232f3e;--awsui-color-amazon-orange: #ff9900;--awsui-color-transparent: transparent;--awsui-color-yellow-100: ",
+      "timestamp": 1786689325.636274
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/js/app.js",
+      "status": 200,
+      "body": "/*! For license information please see app.js.LICENSE.txt */\n!function(e){var t={};function n(r){if(t[r])return t[r].exports;var a=t[r]={i:r,l:!1,exports:{}};return e[r].call(a.exports,a,a.exports,n),a.l=!0,a.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){\"undefined\"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:\"Module\"}),Object.defineProperty(e,\"__esModule\",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&\"object\"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,\"default\",{enumerable:!0,value:e}),2&t&&\"string\"!=typeof e)for(var a in e)n.d(r,a,function(t){return e[t]}.bind(null,a));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,\"a\",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p=\"/\",n(n.s=766)}([function(e,t,n){\"use strict\";e.exports=n(989)},function(e,t,n){\"use strict\";function r(e){var t,n,a=\"\";if(\"string\"==typeof e||\"number\"==typeof e)a+=e;else if(\"object\"==typeof e)if(Array.isArray(e))for(t=0;t<e.length;t++)e[t]&&(n=r(e[t]))&&(a&&(a+=\" \"),a+=n);else for(t in e)e[t]&&(a&&(a+=\" \"),a+=t);return a}t.a=function(){for(var e,t,n=0,a=\"\";n<arguments.length;)(e=arguments[n++])&&(t=r(e))&&(a&&(a+=\" \"),a+=t);return a}},function(e,t,n){\"use strict\";n.d(t,\"d\",(function(){return r})),n.d(t,\"a\",(function(){return a})),n.d(t,\"b\",(function(){return i})),n.d(t,\"c\",(function(){return o}));function r(e,t){var n={};for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&t.indexOf(r)<0&&(n[r]=e[r]);if(null!=e&&\"function\"==typeof Object.getOwnPropertySymbols){var a=0;for(r=Object.getOwnPropertySymbols(e);a<r.length;a++)t.indexOf(r[a])<0&&Object.prototype.propertyIsEnumerable.call(e,r[a])&&(n[r[a]]=e[r[a]])}return n}function a(e,t,n,r){return new(n||(n=Promise))((function(a,i){function o(e){try{l(r.next(e))}catch(e){i(",
+      "timestamp": 1786689329.2643838
+    },
+    {
+      "url": "https://us-east-1.signin.aws/platform/d-9067642ac7/api/execute",
+      "status": 200,
+      "body": "{\"requestId\":\"100ca936-5f7c-4737-995c-ca0fc2b0e53a\",\"workflowStateHandle\":\"508bc9d7-94e6-49c2-b42a-363c7f28e46e\",\"stepId\":\"start\",\"presentationContext\":{\"clientId\":\"3bec6266d4c83882\",\"identityPoolId\":\"d-9067642ac7\",\"identityPoolType\":\"DIRECTORY\",\"identityPoolAlias\":\"view\",\"applicationType\":\"SSO_INDIVIDUAL_ID\",\"arnPartition\":\"aws\",\"locale\":\"\",\"airportCode\":\"IAD\"},\"workflowResponseData\":{}}",
+      "timestamp": 1786689330.2153103
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/legalFooter.json",
+      "status": 200,
+      "body": "{\"awsCustomerAgreement\":\"<a href=\\\"https://aws.amazon.com/agreement/\\\" target=\\\"_blank\\\">AWS Customer Agreement</a>\",\"awsServiceTerms\":\"<a href=\\\"https://aws.amazon.com/service-terms/\\\" target=\\\"_blank\\\">AWS Service Terms</a>\",\"siteTerms\":\"<a href=\\\"https://aws.amazon.com/terms/\\\" target=\\\"_blank\\\">Site Terms</a>\",\"awsAcceptableUsePolicy\":\"<a href=\\\"https://aws.amazon.com/aup/\\\" target=\\\"_blank\\\">AWS Acceptable Use Policy</a>\",\"awsCookieNotice\":\"<a href=\\\"https://aws.amazon.com/legal/cookies/\\\" target=\\\"_blank\\\">AWS Cookie Notice</a>\",\"awsPrivacyNotice\":\"<a href=\\\"https://aws.amazon.com/privacy/\\\" target=\\\"_blank\\\">AWS Privacy Notice</a>\",\"awsCopyright\":\"\u00a9 {{year}}, Amazon Web Services, Inc. or its affiliates. All rights reserved.\",\"awsCookiePreferences\":\"Cookie Preferences\",\"builderId\":{\"siteTerms\":\"Site terms\",\"privacy\":\"Privacy\",\"awsCookiePreferences\":\"Cookie preferences\",\"awsCopyright\":\"\u00a9 {{year}}, Amazon Web Services, Inc. or its affiliates. All rights reserved.\"}}",
+      "timestamp": 1786689330.758115
+    },
+    {
+      "url": "https://us-east-1.signin.aws/metrics/fingerprint",
+      "status": 200,
+      "body": "",
+      "timestamp": 1786689331.563706
+    },
+    {
+      "url": "https://us-east-1.signin.aws/platform/d-9067642ac7/api/execute",
+      "status": 200,
+      "body": "{\"requestId\":\"efb300a8-c81e-4077-8793-163a077aa258\",\"workflowStateHandle\":\"159e1e9c-142b-4471-a511-db254b155c4b\",\"stepId\":\"get-identity-user\",\"actionIdList\":[\"SUBMIT\",\"SIGNUP\",\"CHOOSE_DIFFERENT_LOGIN_PATH\"],\"presentationContext\":{\"clientId\":\"3bec6266d4c83882\",\"identityPoolId\":\"d-9067642ac7\",\"identityPoolType\":\"DIRECTORY\",\"identityPoolAlias\":\"view\",\"applicationType\":\"SSO_INDIVIDUAL_ID\",\"arnPartition\":\"aws\",\"locale\":\"\",\"airportCode\":\"IAD\"},\"workflowResponseData\":{\"loginPathOptionsResponse\":{\"primaryLoginPath\":{\"type\":\"USER_IDENTIFICATION\"},\"secondaryLoginPathList\":[{\"type\":\"OIDC\",\"loginPathId\":\"e90dcde9-5a3b-4ea3-bf47-6d117fb66c15\",\"loginVendorName\":\"GitHub\"},{\"type\":\"OIDC\",\"loginPathId\":\"e232a2e3-d609-4d49-a15a-edb600b281b9\",\"loginVendorName\":\"Google\"},{\"type\":\"OIDC\",\"loginPathId\":\"3388f9dd-d1d1-4e63-9fe1-6d782db60bf5\",\"loginVendorName\":\"Amazon\"},{\"type\":\"OIDC\",\"loginPathId\":\"b2c134b9-9ff5-481a-a8d2-1082c4ee28f0\",\"loginVendorName\":\"Apple\"}]}}}",
+      "timestamp": 1786689331.9312267
+    },
+    {
+      "url": "https://us-east-1.signin.aws/metrics/fingerprint",
+      "status": 200,
+      "body": "",
+      "timestamp": 1786689332.6346714
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/locales/en/usernamePage.json",
+      "status": 200,
+      "body": "{\"header\":\"Sign in\",\"sonoHeader\":\"Sign in with AWS Builder ID\",\"sonoSubHeader\":\"With AWS Builder ID\",\"sonoSignupHeader\":\"Create AWS Builder ID\",\"createYourBuilderId\":\"Create your AWS Builder ID\",\"headerAlias\":\"Sign in to\",\"usernameText\":\"Username\",\"emailText\":\"Your email address\",\"builderIdEmailLabel\":\"Email\",\"usernameErrorText\":\"Invalid username\",\"emailErrorText\":\"Invalid email\",\"inputPlaceHolder\":\"Your company username\",\"rememberUsername\":\"Remember username\",\"rememberEmail\":\"Save my email address\",\"signUp\":\"Create your AWS Builder ID\",\"signUpHeader\":\"Create\",\"signUpSubHeader\":\"With a personal email address\",\"signInSubHeader\":\"With your personal email address\",\"signIn\":\"Already have AWS Builder ID? Sign in\",\"alreadyHaveBuilderId\":\"Already have AWS Builder ID?\",\"notRegistered\":\"Not registered?\",\"gdprCookieNotice\":\"By continuing, you agree to the <a href=\\\"https://aws.amazon.com/agreement/\\\" target=\\\"_blank\\\">AWS Customer Agreement</a> or other agreement for AWS services, and the <a href=\\\"https://aws.amazon.com/privacy/\\\" target=\\\"_blank\\\">Privacy Notice</a>. This site uses essential cookies. See our <a href=\\\"https://aws.amazon.com/legal/cookies\\\" target=\\\"_blank\\\">Cookie Notice</a> for more information.\",\"gdprCookieNotice_aws-cn_bjs\":\"By continuing, you agree to the <a href=\\\"https://www.amazonaws.cn/en/agreement/beijing/\\\" target=\\\"_blank\\\">Sinnet Customer Agreement for Amazon Web Services (Beijing Region)</a> or other agreement governing your use of Amazon Web Services services, and the <a href=\\\"https://www.amazonaws.cn/en/privacy/beijing\\\" target=\\\"_blank\\\">Sinnet Privacy Policy for Amazon Web Services (Beijing Region)</a>. This site uses essential cookies. See our <a href=\\\"https://www.amazonaws.cn/en/legal/cookie/beijing/\\\" target=\\\"_blank\\\">Cookie Notice</a> for more information.\",\"gdprCookieNotice_aws-cn_zhy\":\"By continuing, you agree to the <a href=\\\"https://www.amazonaws.cn/en/agreement/ningxia/\\\" target=\\\"_blank\\\">Western Cloud Data Customer Agreement f",
+      "timestamp": 1786689333.0406125
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/static/icons/SVG/AppleLight.svg",
+      "status": 200,
+      "body": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M10.225 2.59749C10.7468 1.92389 11.1424 0.971828 10.9993 0C10.1464 0.0592693 9.14957 0.604931 8.56791 1.31616C8.03768 1.9606 7.6019 2.91926 7.7721 3.84969C8.70444 3.87885 9.66671 3.32001 10.225 2.59749ZM14.8334 11.7391C14.4603 12.5707 14.2807 12.9423 13.8001 13.679C13.1296 14.7072 12.1841 15.9877 11.0115 15.9971C9.97063 16.0084 9.70224 15.315 8.28923 15.3235C6.87622 15.331 6.58165 16.0102 5.53896 15.9999C4.36721 15.9895 3.47134 14.8342 2.80083 13.806C0.924922 10.9328 0.727605 7.56012 1.88439 5.76605C2.70732 4.49223 4.00531 3.74713 5.22474 3.74713C6.46569 3.74713 7.24654 4.43203 8.27427 4.43203C9.27114 4.43203 9.87805 3.74526 11.3135 3.74526C12.4002 3.74526 13.5513 4.34077 14.3705 5.3681C11.6848 6.84889 12.1196 10.707 14.8334 11.7391Z\" fill=\"#0B0B0A\"/>\n</svg>\n",
+      "timestamp": 1786689333.5619354
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/static/icons/SVG/GitHubLight.svg",
+      "status": 200,
+      "body": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2778_29288)\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8.00662 0C3.57917 0 0 3.66665 0 8.2028C0 11.8288 2.29329 14.8981 5.4747 15.9844C5.87246 16.0661 6.01816 15.8079 6.01816 15.5908C6.01816 15.4006 6.00505 14.7488 6.00505 14.0696C3.7778 14.5586 3.31399 13.0918 3.31399 13.0918C2.95606 12.1411 2.42572 11.8968 2.42572 11.8968C1.69674 11.3943 2.47882 11.3943 2.47882 11.3943C3.28744 11.4486 3.71175 12.2363 3.71175 12.2363C4.42745 13.4856 5.58074 13.1326 6.04471 12.9153C6.11092 12.3856 6.32315 12.0189 6.5485 11.8153C4.77211 11.6251 2.90313 10.919 2.90313 7.76813C2.90313 6.8718 3.22107 6.13847 3.72486 5.56814C3.64538 5.36448 3.36693 4.52231 3.80451 3.39515C3.80451 3.39515 4.48055 3.17782 6.00488 4.23715C6.6575 4.05759 7.33054 3.96625 8.00662 3.96548C8.68266 3.96548 9.37181 4.06065 10.0082 4.23715C11.5327 3.17782 12.2087 3.39515 12.2087 3.39515C12.6463 4.52231 12.3677 5.36448 12.2882 5.56814C12.8053 6.13847 13.1101 6.8718 13.1101 7.76813C13.1101 10.919 11.2411 11.6115 9.45146 11.8153C9.74318 12.0733 9.99492 12.5621 9.99492 13.3363C9.99492 14.4363 9.98181 15.3191 9.98181 15.5906C9.98181 15.8079 10.1277 16.0661 10.5253 15.9846C13.7067 14.8979 16 11.8288 16 8.2028C16.0131 3.66665 12.4208 0 8.00662 0Z\" fill=\"#24292F\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2778_29288\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n",
+      "timestamp": 1786689333.562135
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/static/icons/SVG/GoogleLight.svg",
+      "status": 200,
+      "body": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2777_29618)\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M3.44234 7.99997C3.44234 7.49188 3.52672 7.00477 3.67734 6.54788L1.04107 4.53473C0.52727 5.57793 0.237793 6.7534 0.237793 7.99997C0.237793 9.24548 0.526914 10.4202 1.04 11.4627L3.67485 9.44566C3.52566 8.99091 3.44234 8.50557 3.44234 7.99997Z\" fill=\"#FBBC05\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8.07108 3.37776C9.17486 3.37776 10.1718 3.76888 10.9552 4.40888L13.234 2.13332C11.8453 0.924432 10.065 0.177765 8.07108 0.177765C4.97549 0.177765 2.315 1.94808 1.04102 4.53474L3.67729 6.5479C4.28473 4.70399 6.01625 3.37776 8.07108 3.37776Z\" fill=\"#EB4335\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M8.07108 12.6222C6.01625 12.6222 4.28473 11.296 3.67729 9.45209L1.04102 11.4649C2.315 14.0519 4.97548 15.8222 8.07108 15.8222C9.9817 15.8222 11.8058 15.1438 13.1748 13.8727L10.6725 11.9381C9.96639 12.3829 9.0773 12.6222 8.07108 12.6222Z\" fill=\"#34A853\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15.5483 7.99998C15.5483 7.53776 15.4771 7.03998 15.3703 6.57776H8.07104V9.59998H12.2726C12.0625 10.6304 11.4907 11.4226 10.6724 11.9381L13.1748 13.8727C14.6129 12.5379 15.5483 10.5497 15.5483 7.99998Z\" fill=\"#4285F4\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2777_29618\">\n<rect width=\"16\" height=\"16\" fill=\"white\"/>\n</clipPath>\n</defs>\n</svg>\n",
+      "timestamp": 1786689333.562263
+    },
+    {
+      "url": "https://us-east-1.signin.aws/assets/static/icons/SVG/AmazonLight.svg",
+      "status": 200,
+      "body": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9.45115 5.68044C6.86587 5.7622 4.40568 6.4572 4.40568 8.9919C4.40568 10.7498 5.48983 11.6084 6.94926 11.6084C8.2419 11.6084 9.07586 11.1178 9.78473 10.3819C10.1183 10.8316 10.2017 11.036 10.7855 11.4857C10.9106 11.5675 11.1191 11.5675 11.2025 11.4448L12.4951 10.341C12.6619 10.2184 12.5785 10.014 12.4951 9.9322C12.2032 9.48249 11.8696 9.15543 11.8696 8.33779V5.72132C11.8696 4.6175 11.953 3.59544 11.1191 2.85956C10.4102 2.20544 9.53454 2.04191 8.53379 2.00103C6.32379 1.96014 4.86436 3.14573 4.65587 4.53573C4.61417 4.78102 4.82266 4.90367 4.94776 4.90367L6.49059 5.10808C6.74077 5.14897 6.86587 4.94455 6.90757 4.78102C7.15775 3.88161 8.11681 3.63632 8.70058 3.84073C9.53454 4.08603 9.45115 5.02632 9.45115 5.68044ZM7.95002 9.97308C7.32455 9.97308 6.90757 9.44161 6.90757 8.74661C6.94926 7.27485 8.11681 7.02955 9.45115 7.02955V7.76543C9.45115 9.07367 8.74228 9.97308 7.95002 9.97308ZM14.9553 14.3066C15.4974 13.8569 16.0394 12.7531 15.9977 11.9763C15.9977 11.6901 15.956 11.6493 15.6642 11.5675C15.1221 11.404 13.746 11.3631 13.0789 11.9763C12.9538 12.099 12.9955 12.1807 13.1206 12.1807C13.5793 12.099 14.997 11.9354 15.2055 12.2625C15.3723 12.5487 14.8719 13.6934 14.7051 14.184C14.6217 14.3884 14.7885 14.4293 14.9553 14.3066ZM0.0690876 12.0172C4.0721 15.7375 10.3685 15.8601 14.4549 13.0393C14.7468 12.8757 14.4549 12.5487 14.2047 12.6713C11.9676 13.5988 9.54132 14.0041 7.11717 13.8551C4.69301 13.7061 2.33732 13.007 0.23588 11.8128C0.0690876 11.6901 -0.0977046 11.8945 0.0690876 12.0172Z\" fill=\"#040707\"/>\n</svg>\n",
+      "timestamp": 1786689333.9191544
+    },
+    {
+      "url": "https://profile.aws.amazon.com/?workflowID=5ef05f15-0f06-4b50-b174-547c934bd6cb",
+      "status": 200,
+      "body": "<!doctype html><html lang=\"en\"><head><meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><title id=\"app-title\">Amazon Web Services (AWS)</title><link href=\"/dist/main/app_5c61171ec757a8a618d4.min.css\" rel=\"stylesheet\"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id=\"aws-user-profile-app\"></div><script src=\"/dist/main/app_23c62decfc35ec17ad34.min.js\"></script></body></html>",
+      "timestamp": 1786689341.1599362
+    },
+    {
+      "url": "https://profile.aws.amazon.com/dist/main/app_5c61171ec757a8a618d4.min.css",
+      "status": 200,
+      "body": "@layer awsui-base-theme{body{--color-primary-50-1eutn3:#f0fbff;--color-primary-100-j02ykd:#d1f1ff;--color-primary-200-b7ev0t:#b8e7ff;--color-primary-300-lbt26q:#75cfff;--color-primary-400-tdeooy:#42b4ff;--color-primary-500-66353q:#09f;--color-primary-600-68oa7u:#006ce0;--color-primary-700-5lbazr:#004a9e;--color-primary-800-r5zau9:#003b8f;--color-primary-900-uhv01b:#002b66;--color-primary-950-b9qei6:#00204d;--color-primary-1000-qz6wq0:#001129;--color-neutral-50-5676vk:#fcfcfd;--color-neutral-100-xva5sx:#f9f9fa;--color-neutral-150-2fj74l:#f6f6f9;--color-neutral-200-j5ayhc:#f3f3f7;--color-neutral-250-77d0j6:#ebebf0;--color-neutral-300-ykaajl:#dedee3;--color-neutral-350-15dbz7:#c6c6cd;--color-neutral-400-nppdl9:#b4b4bb;--color-neutral-450-4w2uiz:#a4a4ad;--color-neutral-500-evzfy2:#8c8c94;--color-neutral-550-xry573:#72747e;--color-neutral-600-4k14bl:#656871;--color-neutral-650-re41um:#424650;--color-neutral-700-1ebo78:#333843;--color-neutral-750-zvilej:#232b37;--color-neutral-800-sggo8w:#1b232d;--color-neutral-850-z568w9:#161d26;--color-neutral-900-hav0uf:#131920;--color-neutral-950-fc7tg7:#0f141a;--color-neutral-1000-2wv0ov:#06080a;--color-error-50-694srb:#fff5f5;--color-error-100-tyywtv:#ffe0e0;--color-error-400-9k5dg2:#ff7a7a;--color-error-600-2nofe4:#db0000;--color-error-700-s5g3i2:#c20000;--color-error-800-1wtgkg:#900;--color-error-900-kika0y:#700000;--color-error-950-qiq7u6:#520000;--color-error-1000-oice6e:#1f0000;--color-success-50-pncm30:#effff1;--color-success-100-jirpsy:#d9ffd6;--color-success-200-cfzlad:#aeffa8;--color-success-400-8gss7k:#00e500;--color-success-500-zgiyh7:#2bb534;--color-success-600-it3b3f:#00802f;--color-success-800-pans3i:#005c26;--color-success-950-n91daq:#031;--color-success-1000-zy1prf:#001401;--color-warning-50-tjk9zo:#fffef0;--color-warning-100-zxtqq4:#fffbbd;--color-warning-200-fdetnc:#fef571;--color-warning-400-fv1ga2:#ffe347;--color-warning-500-0wuk8q:#fbd332;--color-warning-600-xrraa4:#f2b100;--color-warning-800-tcbc7b:#9e6900;--co",
+      "timestamp": 1786689347.2915108
+    },
+    {
+      "url": "https://profile.aws.amazon.com/dist/main/app_23c62decfc35ec17ad34.min.js",
+      "status": 200,
+      "body": "/*! For license information please see app_23c62decfc35ec17ad34.min.js.LICENSE.txt */\n(()=>{var __webpack_modules__={6581(e,o,t){\"use strict\";var r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(o,\"__esModule\",{value:!0}),o.NavLocaleSources=o.LocaleSources=o.LocaleCode=void 0;const a=r(t(5973)),n=r(t(2790)),l=r(t(7702)),i=r(t(509)),c=r(t(7976)),s=r(t(4032)),d=r(t(3388)),u=r(t(9548)),g=r(t(5622)),f=r(t(2150)),h=r(t(6306)),p=r(t(295)),m=r(t(9104)),v=r(t(7280)),b=r(t(6175)),k=r(t(7795)),w=r(t(3675)),y=r(t(5981)),x=r(t(9086)),_=r(t(4574)),C=r(t(5813)),S=r(t(848)),B=r(t(9912)),T=r(t(9476)),N=r(t(4868)),D=r(t(3374)),E=r(t(9118)),I=r(t(4365)),A=r(t(383)),P=r(t(120)),L=r(t(5304)),R=r(t(2951)),H=r(t(4811)),O=r(t(5587));var z;!function(e){e.ar_SA=\"ar-SA\",e.en_US=\"en-US\",e.fr_FR=\"fr-FR\",e.de_DE=\"de-DE\",e.el_GR=\"el-GR\",e.he_IL=\"he-IL\",e.id_ID=\"id-ID\",e.it_IT=\"it-IT\",e.ja_JP=\"ja-JP\",e.ko_KR=\"ko-KR\",e.pt_BR=\"pt-BR\",e.zh_CN=\"zh-CN\",e.es_ES=\"es-ES\",e.es_419=\"es-419\",e.th_TH=\"th-TH\",e.zh_TW=\"zh-TW\",e.vi_VN=\"vi-VN\",e.ar=\"ar\",e.fr=\"fr\",e.de=\"de\",e.el=\"el\",e.he=\"he\",e.id=\"id\",e.it=\"it\",e.ja=\"ja\",e.ko=\"ko\",e.pt=\"pt\",e.th=\"th\",e.vi=\"vi\"}(z||(o.LocaleCode=z={})),o.LocaleSources={[z.ar_SA]:a.default,[z.de_DE]:n.default,[z.el_GR]:l.default,[z.en_US]:i.default,[z.es_419]:c.default,[z.es_ES]:s.default,[z.fr_FR]:d.default,[z.he_IL]:u.default,[z.id_ID]:g.default,[z.it_IT]:f.default,[z.ja_JP]:h.default,[z.ko_KR]:p.default,[z.pt_BR]:m.default,[z.th_TH]:v.default,[z.vi_VN]:b.default,[z.zh_CN]:k.default,[z.zh_TW]:w.default,[z.fr]:d.default,[z.ar]:a.default,[z.de]:n.default,[z.el]:l.default,[z.he]:u.default,[z.id]:g.default,[z.it]:f.default,[z.ja]:h.default,[z.pt]:m.default,[z.th]:v.default,[z.vi]:b.default,[z.ko]:p.default},o.NavLocaleSources={[z.ar_SA]:y.default,[z.de_DE]:x.default,[z.el_GR]:_.default,[z.en_US]:C.default,[z.es_419]:S.default,[z.es_ES]:B.default,[z.fr_FR]:T.default,[z.he_IL]:N.default,[z.id_ID]:D.default,[z.it_IT]:E.default,[z.ja",
+      "timestamp": 1786689347.7179222
+    },
+    {
+      "url": "https://profile.aws.amazon.com/api/get-config",
+      "status": 200,
+      "body": "{\"features\":{\"AddressCollection\":{\"featureVariation\":\"DISABLED\"},\"UserAlias\":{\"featureVariation\":\"DISABLED\"}}}",
+      "timestamp": 1786689347.718162
+    },
+    {
+      "url": "https://profile.aws.amazon.com/dist/locales/en-US_a47124c2ffde97ea4d40696e7c2c6248.json",
+      "status": 200,
+      "body": "{\n    \"Profile\": {\n        \"Heading\": {\n            \"text\": \"Profile\",\n            \"note\": \"Heading for Profile page\"\n        },\n        \"My_Details\": {\n            \"text\": \"My details\",\n            \"note\": \"Label for user profile details title\"\n        },\n        \"My_Details_Description\": {\n            \"text\": \"Changes to your AWS Builder ID apply to all AWS services and applications that you access using your AWS Builder ID.\",\n            \"note\": \"Description for the My details page\"\n        },\n        \"Profile_Information\": {\n            \"text\": \"Profile information\",\n            \"note\": \"Heading for Profile Information component\"\n        },\n        \"Edit_Profile\": {\n            \"text\": \"Edit profile\",\n            \"note\": \"Text for Edit Profile page for breadcrumb and header\"\n        },\n        \"Edit_Profile_Description\": {\n            \"text\": \"Changes you make here will apply to all AWS applications you use with this AWS Builder ID.\",\n            \"note\": \"Edit Profile description\"\n        },\n        \"Contact_Information\": {\n            \"text\": \"Contact information\",\n            \"note\": \"Heading for Contact Information component\"\n        },\n        \"Edit_Contact_Information\": {\n            \"text\": \"Edit contact information\",\n            \"note\": \"Text for Edit Contact Information page for breadcrumb and header\"\n        },\n        \"Edit_Button_Text\": {\n            \"text\": \"Edit\",\n            \"note\": \"Text for profile edit button\"\n        },\n        \"Change_Password_Button_Text\": {\n            \"text\": \"Change password\",\n            \"note\": \"Text for change password button\"\n        },\n        \"Cancel_Button_Text\": {\n            \"text\": \"Cancel\",\n            \"note\": \"Text for cancel button\"\n        },\n        \"Save_Changes_Button_Text\": {\n            \"text\": \"Save changes\",\n            \"note\": \"Text for save changes button\"\n        },\n        \"Verify_Email_Button_Text\": {\n            \"text\": \"Verify email\",\n            \"note\": \"Text for verify email button\"\n        },",
+      "timestamp": 1786689347.718827
+    },
+    {
+      "url": "https://profile.aws.amazon.com/dist/locales/nav-en-US_254d2e9f8362a2975ed05b6e14fc7a38.json",
+      "status": 200,
+      "body": "{\n    \"LegalFooterLink\": {\n        \"Privacy\": {\n            \"text\": \"Privacy\",\n            \"note\": \"Legal Footer Privacy link\"\n        },\n        \"Terms\": {\n            \"text\": \"Terms\",\n            \"note\": \"Legal Footer Terms Link\"\n        },\n        \"Cookie_Preferences\": {\n            \"text\": \"Cookie preferences\",\n            \"note\": \"Cookie Preferences link\"\n        },\n        \"LegalFooterCopyrightText\": {\n            \"text\": \"\u00a9 {{year}}, Amazon Web Services, Inc. or its affiliates. All rights reserved.\",\n            \"note\": \"Copy Right Link\"\n        }\n    },\n    \"NavigationHeader\": {\n        \"FieldSeparator\": {\n            \"text\": \"|\",\n            \"note\": \"Feild Sepeeator\"\n        },\n        \"AWS_Alt_Logo\": {\n            \"text\": \"AWS\",\n            \"note\": \"AWS Alt text\"\n        },\n        \"LogoutButtonText\": {\n            \"text\": \"Sign out\",\n            \"note\": \"Sign out button Text\"\n        }\n    },\n    \"ProfileNavigation\": {\n        \"Home\": {\n            \"text\": \"AWS Builder ID\",\n            \"note\": \"AWS Builder ID home button\"\n        },\n        \"My_Details\": {\n            \"text\": \"My details\",\n            \"note\": \"My Details Side Nav Link\"\n        },\n        \"Security\": {\n            \"text\": \"Security\",\n            \"note\": \"Security Side Nav Link\"\n        },\n        \"Privacy_And_Data\": {\n            \"text\": \"Privacy & data\",\n            \"note\": \"Privacy & data side Nav link\"\n        }\n    }\n}\n",
+      "timestamp": 1786689347.719047
+    },
+    {
+      "url": "https://profile.aws.amazon.com/api/start",
+      "status": 200,
+      "body": "{\"email\":\"5hjv38wbpu@havenhaus.in\",\"postCreateRedirectUrl\":\"https://us-east-1.signin.aws/platform/d-9067642ac7/signup\",\"redirectUrl\":\"https://us-east-1.signin.aws/platform/d-9067642ac7/login?workflowStateHandle=a652db39-e63f-4634-a993-242a5a9229f5\",\"workflowState\":\"0b1b50e9-55ec-4766-ac7e-510393a58b96\"}",
+      "timestamp": 1786689347.7191677
+    },
+    {
+      "url": "https://profile.aws.amazon.com/api/send-otp",
+      "status": 400,
+      "body": "{\"errorCode\":\"BLOCKED\",\"message\":\"Request was blocked by TES.\"}",
+      "timestamp": 1786689353.7285366
+    }
+  ]
+}

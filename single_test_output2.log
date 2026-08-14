@@ -1,0 +1,13 @@
+[*] Creating 1 accounts...
+[1/1] 8vpfzexxs9@havenhaus.in (Liam Miller)
+  Password: TestPass7167%
+    Initial body: 
+
+Allow kiro-3cc175fa to access your data?
+By choosing Allow access, you agree to allow kiro-3cc175f
+    Allow clicked - exiting flow
+    Waiting for callback on port 8970...
+    Callback received! Code: eyJraWQiOiJrZXktMTU2NDAyODA3OCIsImFsZyI6IkhTMzg0In...
+  [OK] Token captured! Refresh: aorAAAAAGr040MdaJ-RnrQjI2u8ptZHKZy9xrHHnIfGUQddOxy...
+
+[*] Done! 1/1 accounts created with tokens.

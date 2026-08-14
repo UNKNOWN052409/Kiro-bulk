@@ -1,0 +1,31 @@
+nohup: ignoring input
+Creating: Aria Lee <7le5jh4yfj@havenhaus.in>
+Password: Kiro7le5!2026
+Proxy session: res-us
+
+[0] Starting local proxy on :8899...
+[1] Verifying proxy...
+    Proxy IP: 76.39.182.190 (Charter Communications, Ashburn)
+[2] Registering OIDC client...
+    Client ID: NtSErdj91QudCT3Flr0QKXVzLWVhc3QtMQ
+[3] Launching browser (full proxy)...
+[4] Navigating to OIDC authorize...
+    Page loaded (commit)!
+[5] Waiting for email form (step=get-identity-user)...
+[8] Waiting for user-signup step (redirect)...
+node:events:487
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)
+Emitted 'error' event on Socket instance at:
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+
+Node.js v24.18.1

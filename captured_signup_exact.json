@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://oidc.us-east-1.amazonaws.com/authorize?response_type=code&client_id=zC4RYw7u7hi_hBqIqDMqp3VzLWVhc3QtMQ&redirect_uri=http%3A//127.0.0.1%3A9997/oauth/callback&scopes=codewhisperer%3Acompletions%20codewhisperer%3Aanalysis&state=V1MvTd6lfjaooQAeExmC_w&code_challenge=nSjhmBXr2aKa4o2tgoPO8K3f5sXk5g_gEXCz35B7eFI&code_challenge_method=S256",
+    "method": "GET",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://view.awsapps.com/start/?callback_url=https%3A%2F%2Foidc.us-east-1.amazonaws.com%2Fauthentication_result&orchestrator_id=AAAADmtleS0xNTY0MDI4MDc4kU73WMPR_WE639PfL75S3JbgGvaMOsR5XTNX3C427W_Krlbj6KaZyK3EsJ2dfmLLj7a7eQRphly0Iv-ZTWksOhchi9sKjz8-MTvN-AStUsbKZDy68bw_vx1IUSZGj9ITvzyhMD1zmvgt2CjnMicKBXLyQa1vvyLM7CK61PlPmxV_c6Oi0cSzqwI0Vc--oDGd1BCIiEqlEdP3tLxbCT3ZmNyALnaZD1x5sJg1gtju4PGfw42EflbyvfVqy-U3C7EbIPH4Kel2UX8RhMds3OqcuROgcvSSJ_5o9V4XEm0m3CvVoejBGYXW8W22m2zocX2BLd_p8LLy1yiV3-Wuo7Bk4GPfsPkMDOFkkyxrtDBMNHgPWz3jDY07zMZLlVNvOwpwrN0qSsds3Y3yjkJI42k6epIHyDx1Aq0tRGMaHUjNbJmgcc7FJbOPzFkxj-FTS4kP3B30tkl1fGKwyCht1ZUteON61pkjVakt_pwjOprTTO5XUezg-mUHwtlp36dn2e8RafCSP9fVc7W-ZBf73hRRFoBsmAxgnS3Jwd-C7JXTCdrXIa-dLJJKsW64PBmArxw3q3rqyUxf-WUYBABYIauxrwoH65hApst42cvcj8fQOAXS0UPo9HqZ2hEveObBrAbZcXgWKF6RwcNANeW-K8NbvAO0o8hCUwBLP2EjB4Xh8GqABdqoDzGP83eEeCzEeLMfM_uvuzvZGdDSdPI4j4aV7UgV4KCwCo9bQl3h2u-UBsqUVu_pIZYpVhOGfUDMWYVVL1t2YsyxzNI6Lc9YMhcWlY904N4brCh4hgs2ZbrOZ1N69gi6",
+    "method": "GET",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\""
+    },
+    "post_data": null
+  }
+]

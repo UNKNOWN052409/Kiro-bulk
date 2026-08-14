@@ -1,0 +1,25 @@
+{
+  "email": "8vlq6nn295@havenhaus.in",
+  "name": "Mason Malhotra",
+  "password": "bquvqJTjK7Naz%",
+  "status": "failed",
+  "error": "Could not get profile workflowID",
+  "token": null,
+  "signup_response": {
+    "requestId": "6d1af3d8-aa56-4639-a20f-215107bcec5a",
+    "workflowStateHandle": "18f7e7af-dd88-45f5-a85b-50f9db4c4b6c",
+    "stepId": "start",
+    "presentationContext": {
+      "clientId": "3bec6266d4c83882",
+      "identityPoolId": "d-9067642ac7",
+      "username": "8vlq6nn295@havenhaus.in",
+      "identityPoolType": "DIRECTORY",
+      "identityPoolAlias": "view",
+      "applicationType": "SSO_INDIVIDUAL_ID",
+      "arnPartition": "aws",
+      "locale": "",
+      "airportCode": "IAD"
+    },
+    "workflowResponseData": {}
+  }
+}

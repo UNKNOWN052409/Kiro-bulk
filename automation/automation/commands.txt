@@ -1,0 +1,65 @@
+================================================================================
+Mail Automation & Kiro Builder ID - Startup Commands
+================================================================================
+
+This file contains the quick-start commands for all components of this project.
+
+Open your command prompt in this directory:
+cd D:\dowload\scrcpy-win64-v3.3.4\automation
+
+--------------------------------------------------------------------------------
+1. SETUP & INITIALIZATION
+--------------------------------------------------------------------------------
+Before running anything, install the requirements and authorize Gmail:
+
+* Step 1: Install Python dependencies:
+  pip install -r requirements.txt
+
+* Step 2: Authorize Gmail (Requires credentials.json to be present in this folder):
+  python gmail_oauth.py
+
+--------------------------------------------------------------------------------
+2. TESTING MAIL CONNECTIONS
+--------------------------------------------------------------------------------
+Verify that your email credentials are working:
+
+* Test OAuth2 for SMTP & IMAP:
+  python gmail_oauth.py --test
+
+* Test sending an email:
+  python mail_sender.py --test
+
+* Test reading emails:
+  python mail_reader.py --test
+
+--------------------------------------------------------------------------------
+3. STARTING THE WEB UI (Flask Dashboard)
+--------------------------------------------------------------------------------
+Start the local dashboard to monitor emails and trigger automations:
+
+* Start server:
+  python app.py
+
+* Access in browser:
+  Open http://localhost:5000 in your browser.
+
+--------------------------------------------------------------------------------
+4. KIRO BUILDER ID AUTOMATION
+--------------------------------------------------------------------------------
+Automate Kiro Builder ID registrations. Replace "example.com" with your domain.
+
+* Run Single (Opens browser, stops after run):
+  python kiro_builder_id/kiro_builder_id.py example.com
+
+* Run Repeating (30s delay between runs, opens browser):
+  python kiro_builder_id/kiro_builder_id.py example.com --repeat
+
+* Run Immediate (Zero delay between runs, opens browser):
+  python kiro_builder_id/kiro_builder_id.py example.com --immediate
+
+* Run Immediate WITHOUT Web View (Runs completely in background - Recommended):
+  python kiro_builder_id/kiro_builder_id.py example.com --immediate --headless --close-on-exit
+
+* Complete list of Kiro Builder ID modes is available at:
+  kiro_builder_id/modes_and_commands.txt
+================================================================================

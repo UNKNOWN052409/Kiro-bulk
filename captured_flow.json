@@ -1,0 +1,767 @@
+[
+  {
+    "type": "request",
+    "timestamp": 1786695341.6862726,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:15:41.681804195Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695343.6857388,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "1477",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:15:42.669516904Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal finish\\\",\\\"action\\\":\\\"chatcmpl-tool-8dbbd0336fe5bd66\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"exit_code\\\":\\\"0\\\",\\\"lines\\\":11,\\\"completion_reason\\\":\\\"prompt\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:15:42.669624806Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal command completion written to requester\\\",\\\"action_id\\\":\\\"chatcmpl-tool-8dbbd0336fe5bd66\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"type\\\":\\\"finish\\\",\\\"status\\\":\\\"idle\\\",\\\"out_lines\\\":11,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:15:42.935114522Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WebSocket disconnected\\\",\\\"duration\\\":3900000000,\\\"messages\\\":1,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:15:42.935219776Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"GET\\\",\\\"path\\\":\\\"/terminal\\\",\\\"status\\\":200,\\\"duration_ms\\\":3902,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:15:43.682476799Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 1477
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695351.6862595,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:15:51.682273643Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695361.6862292,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "8274",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:16:00.446140892Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/skills/sync-skills\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.446922509Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Syncing skills\\\",\\\"count\\\":26,\\\"max_concurrency\\\":5,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.447045403Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"data-backup-restoration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.447200623Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"skill-creator\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.447375874Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"imagegen\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.447461387Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"persistent-computing\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.447545201Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"automation-and-scheduling\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.447569277Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-config\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.447613875Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-pptx\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.44767765Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-fullstack\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.447933572Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"builtin-llm-models\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.447968932Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"gws-best-practices\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.447946193Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-llm-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.448190135Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile-backend\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.448283139Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-data-api\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.448321654Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-custom-dockerfile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.44836835Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.448592747Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-static\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.448612986Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-periodic-updates\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.448698268Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-image-generation\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.448908084Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-owner-notifications\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.448913689Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-file-storage\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.448996021Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"read-special-images\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.449160866Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-ssr-conversion\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.449191047Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-maps-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.449240064Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"finance-pro-playbooks\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.449453471Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-voice-transcription\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.449706698Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-manus-oauth\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.449792714Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill sync completed\\\",\\\"status\\\":\\\"success\\\",\\\"success_count\\\":26,\\\"total_count\\\":26,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.451450065Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/runtime.v1.SkillService/SyncSkills\\\",\\\"status\\\":200,\\\"duration_ms\\\":5,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.690292906Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/text_editor\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:00.690909274Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"text_editor request\\\",\\\"command\\\":\\\"write\\\",\\\"path\\\":\\\"/home/ubuntu/kiro-gen/capture_flow.py\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\nHost ID file already exists, skipping instance ID fetching\\n{\\\"time\\\":\\\"2026-08-14T08:16:01.387056392Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Upload completed\\\",\\\"file\\\":\\\"capture_flow.py\\\",\\\"size_mb\\\":0,\\\"duration_s\\\":\\\"0.70\\\",\\\"speed_mbps\\\":\\\"0.00\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:01.388698834Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/runtime.v1.TextEditorService/RunTextEditorAction\\\",\\\"status\\\":200,\\\"duration_ms\\\":698,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:16:01.682427601Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 8274
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695365.685654,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "8314",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:16:04.499206314Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/skills/sync-skills\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.500043753Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Syncing skills\\\",\\\"count\\\":26,\\\"max_concurrency\\\":5,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.500214484Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"persistent-computing\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.500222873Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.500228481Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"data-backup-restoration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.500245182Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"skill-creator\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.500213145Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"gws-best-practices\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.500394487Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-manus-oauth\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.500556656Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-static\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.500794275Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-data-api\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.500935316Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-file-storage\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.501053385Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-image-generation\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.501170841Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-custom-dockerfile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.501167922Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-llm-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.501261288Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"builtin-llm-models\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.501433098Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"imagegen\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.501587577Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"automation-and-scheduling\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.501680019Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-maps-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.501706914Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-config\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.501788659Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-owner-notifications\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.501925188Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-voice-transcription\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.50194132Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-fullstack\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.502143045Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile-backend\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.502225881Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-pptx\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.502411605Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"read-special-images\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.502415349Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-periodic-updates\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.502492518Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"finance-pro-playbooks\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.502680248Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-ssr-conversion\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.502935096Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill sync completed\\\",\\\"status\\\":\\\"success\\\",\\\"success_count\\\":26,\\\"total_count\\\":26,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:04.507344527Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/runtime.v1.SkillService/SyncSkills\\\",\\\"status\\\":200,\\\"duration_ms\\\":8,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:05.185759733Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"GET\\\",\\\"path\\\":\\\"/terminal\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:05.185998444Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WebSocket connected\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:05.400409209Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WS message received\\\",\\\"action_id\\\":\\\"chatcmpl-tool-8d42747e051ec9cf\\\",\\\"type\\\":\\\"command\\\",\\\"mode\\\":\\\"run\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:16:05.400677629Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal run\\\",\\\"action\\\":\\\"chatcmpl-tool-8d42747e051ec9cf\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"command_len\\\":102,\\\"exec_dir\\\":\\\".\\\",\\\"command\\\":\\\"cd /home/ubuntu/kiro-gen\\\\n\\u003e captured_flow.json\\\\n\\\\nDISPLAY=:99 timeout 240 python3 -u capture_flow.py 2\\u003e\\u00261\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:16:05.682507884Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 8314
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695371.68703,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:16:11.682218983Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695381.684598,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "387",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:16:21.68175121Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 387
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695391.6850476,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:16:31.682105045Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695401.6853929,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:16:41.681970116Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695411.6852143,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:16:51.682332444Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695421.6861358,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:17:01.682399341Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695431.685943,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:17:11.681964932Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695441.6856332,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:17:21.682101163Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695451.6855772,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:17:31.682108804Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695461.6863654,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:17:41.682428808Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695471.685649,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:17:51.682377688Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695481.6861033,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:18:01.682651098Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695491.6855376,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:18:11.681770125Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695501.6858487,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "387",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:18:21.68203881Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 387
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695511.686835,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:18:31.681886382Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695521.68759,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:18:41.681833175Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695531.6861358,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:18:51.682567599Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695541.686107,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:19:01.682770182Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695551.6860933,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:19:11.682265174Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695561.6874819,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:19:21.682732407Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695573.6875637,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:19:33.683426478Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695583.687359,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:19:43.683421573Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695593.6862674,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:19:53.682747898Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695603.6872272,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:03.682983098Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695607.6887038,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "1482",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:20:05.808786278Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal finish\\\",\\\"action\\\":\\\"chatcmpl-tool-8d42747e051ec9cf\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"exit_code\\\":\\\"124\\\",\\\"lines\\\":36,\\\"completion_reason\\\":\\\"prompt\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:05.809013016Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal command completion written to requester\\\",\\\"action_id\\\":\\\"chatcmpl-tool-8d42747e051ec9cf\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"type\\\":\\\"finish\\\",\\\"status\\\":\\\"idle\\\",\\\"out_lines\\\":36,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:06.02882909Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WebSocket disconnected\\\",\\\"duration\\\":240800000000,\\\"messages\\\":1,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:06.029052999Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"GET\\\",\\\"path\\\":\\\"/terminal\\\",\\\"status\\\":200,\\\"duration_ms\\\":240843,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:07.683221768Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 1482
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695609.6853924,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "7168",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:20:09.56214658Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/skills/sync-skills\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.563043509Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Syncing skills\\\",\\\"count\\\":26,\\\"max_concurrency\\\":5,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.56318943Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-config\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.563203546Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"builtin-llm-models\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.563219476Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"automation-and-scheduling\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.563236222Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-image-generation\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.563203946Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"data-backup-restoration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.56342482Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-llm-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.563844535Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-maps-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.563948505Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.564072789Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-pptx\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.564164898Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-owner-notifications\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.564284306Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-manus-oauth\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.564283382Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-periodic-updates\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.564369531Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-fullstack\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.564471888Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-voice-transcription\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.564705582Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"read-special-images\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.564806609Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-custom-dockerfile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.565051561Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-static\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.565056045Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile-backend\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.565141879Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-data-api\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.565271198Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-file-storage\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.565360034Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"finance-pro-playbooks\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.565362447Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"imagegen\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.565808099Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-ssr-conversion\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.565908049Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"skill-creator\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.566010393Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"gws-best-practices\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.566164828Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"persistent-computing\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.566393547Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill sync completed\\\",\\\"status\\\":\\\"success\\\",\\\"success_count\\\":26,\\\"total_count\\\":26,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:09.568300896Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/runtime.v1.SkillService/SyncSkills\\\",\\\"status\\\":200,\\\"duration_ms\\\":6,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:09.681884824Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 7168
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695611.6855986,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "2998",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:20:10.270064132Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"GET\\\",\\\"path\\\":\\\"/terminal\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:10.270339535Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WebSocket connected\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:10.520290557Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WS message received\\\",\\\"action_id\\\":\\\"chatcmpl-tool-b3efb6dfa14ffcc3\\\",\\\"type\\\":\\\"command\\\",\\\"mode\\\":\\\"run\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:10.520784495Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal run\\\",\\\"action\\\":\\\"chatcmpl-tool-b3efb6dfa14ffcc3\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"command_len\\\":431,\\\"exec_dir\\\":\\\".\\\",\\\"command\\\":\\\"cd /home/ubuntu/kiro-gen\\\\n\\\\n# Check mitmproxy log\\\\ncat mitm_output.log | grep -E \\\\\\\"profile|signin|authorize|send-otp|get-config|get-app|start\\\\\\\" | head -40\\\\n\\\\necho \\\\\\\"\\\\\\\"\\\\necho \\\\\\\"=== Captured flow entries ===\\\\\\\"\\\\npython3 -c \\\\\\\"\\\\nimport json\\\\nwith open('captured_flow.json') as f:\\\\n    data = json.load(f)\\\\nprint(f'Total entries: {len(data)}')\\\\nfor e in data:\\\\n    if e['type'] == 'request':\\\\n        print(f\\\\\\\\\\\\\\\"  {e['method']} {e['url'][:90]}\\\\\\\\\\\\\\\")\\\\n\\\\\\\" 2\\u003e/dev/null\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:10.967416688Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal finish\\\",\\\"action\\\":\\\"chatcmpl-tool-b3efb6dfa14ffcc3\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"exit_code\\\":\\\"0\\\",\\\"lines\\\":66,\\\"completion_reason\\\":\\\"prompt\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:10.967648026Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal command completion written to requester\\\",\\\"action_id\\\":\\\"chatcmpl-tool-b3efb6dfa14ffcc3\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"type\\\":\\\"finish\\\",\\\"status\\\":\\\"idle\\\",\\\"out_lines\\\":66,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:11.186026133Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WebSocket disconnected\\\",\\\"duration\\\":900000000,\\\"messages\\\":1,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:11.186167556Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"GET\\\",\\\"path\\\":\\\"/terminal\\\",\\\"status\\\":200,\\\"duration_ms\\\":916,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:11.682140163Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 2998
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695613.6898026,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:13.683531421Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695617.6858256,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "8723",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:20:16.350617668Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/skills/sync-skills\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.351436467Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Syncing skills\\\",\\\"count\\\":26,\\\"max_concurrency\\\":5,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.351587353Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"data-backup-restoration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.351590216Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"builtin-llm-models\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.351767857Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"read-special-images\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.351782459Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-image-generation\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.351975278Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-fullstack\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.352087981Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-voice-transcription\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.352109865Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-pptx\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.352179031Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-llm-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.352304857Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile-backend\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.35230993Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-periodic-updates\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.352410875Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-manus-oauth\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.35251906Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"persistent-computing\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.352775998Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.352886267Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-static\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.352990567Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-custom-dockerfile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.353136263Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-data-api\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.35316099Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-maps-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.35359818Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-config\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.353862278Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"finance-pro-playbooks\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.353877166Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-file-storage\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.353905309Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"automation-and-scheduling\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.353976864Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"skill-creator\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.354093829Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"gws-best-practices\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.35408997Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-ssr-conversion\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.354191185Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"imagegen\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.354620264Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-owner-notifications\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.354714256Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill sync completed\\\",\\\"status\\\":\\\"success\\\",\\\"success_count\\\":26,\\\"total_count\\\":26,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:16.356353081Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/runtime.v1.SkillService/SyncSkills\\\",\\\"status\\\":200,\\\"duration_ms\\\":5,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:17.094785767Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"GET\\\",\\\"path\\\":\\\"/terminal\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:17.095060514Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WebSocket connected\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:17.320226071Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WS message received\\\",\\\"action_id\\\":\\\"chatcmpl-tool-b5f8d143d67f93b6\\\",\\\"type\\\":\\\"command\\\",\\\"mode\\\":\\\"run\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:17.320612008Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal run\\\",\\\"action\\\":\\\"chatcmpl-tool-b5f8d143d67f93b6\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"command_len\\\":441,\\\"exec_dir\\\":\\\".\\\",\\\"command\\\":\\\"cd /home/ubuntu/kiro-gen\\\\nls -la *.json 2\\u003e/dev/null\\\\ncat captured_flow.json 2\\u003e/dev/null | python3 -c \\\\\\\"\\\\nimport json, sys\\\\ndata = json.load(sys.stdin)\\\\n# Show request details\\\\nfor e in data[:5]:\\\\n    if e['type'] == 'request':\\\\n        print(f\\\\\\\\\\\\\\\"Method: {e['method']}\\\\\\\\\\\\\\\")\\\\n        print(f\\\\\\\\\\\\\\\"URL: {e['url']}\\\\\\\\\\\\\\\")\\\\n        print(f\\\\\\\\\\\\\\\"Headers: {json.dumps(e['headers'], indent=2)[:300]}\\\\\\\\\\\\\\\")\\\\n        print(f\\\\\\\\\\\\\\\"Body: {e['body']}\\\\\\\\\\\\\\\")\\\\n        print('---')\\\\n\\\\\\\" 2\\u003e/dev/null\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:17.682331261Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 8723
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695619.6848323,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "1767",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:20:17.769322226Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"saved full terminal output\\\",\\\"path\\\":\\\"/home/ubuntu/terminal_full_output/2026-08-14_08-20-17_769183_121429.txt\\\",\\\"chars\\\":21329,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:17.769376664Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal finish\\\",\\\"action\\\":\\\"chatcmpl-tool-b5f8d143d67f93b6\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"exit_code\\\":\\\"0\\\",\\\"lines\\\":116,\\\"completion_reason\\\":\\\"prompt\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:17.769567922Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal command completion written to requester\\\",\\\"action_id\\\":\\\"chatcmpl-tool-b5f8d143d67f93b6\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"type\\\":\\\"finish\\\",\\\"status\\\":\\\"idle\\\",\\\"out_lines\\\":14,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:18.805450127Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WebSocket disconnected\\\",\\\"duration\\\":1700000000,\\\"messages\\\":1,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:18.805558584Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"GET\\\",\\\"path\\\":\\\"/terminal\\\",\\\"status\\\":200,\\\"duration_ms\\\":1710,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:19.681766243Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 1767
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695621.686152,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "7163",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:20:21.42071413Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/skills/sync-skills\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.421689695Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Syncing skills\\\",\\\"count\\\":26,\\\"max_concurrency\\\":5,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.421830383Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"data-backup-restoration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.421828333Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"persistent-computing\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.421856115Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"gws-best-practices\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.422046813Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-config\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.422260345Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-data-api\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.422281504Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-fullstack\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.422427878Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile-backend\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.422558975Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"builtin-llm-models\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.4226485Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-pptx\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.422788938Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"skill-creator\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.42279057Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.422879688Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"imagegen\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.423049465Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-static\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.423268949Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-custom-dockerfile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.423389265Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-owner-notifications\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.423491846Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"read-special-images\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.42356723Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-llm-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.423639834Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-manus-oauth\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.42372835Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-file-storage\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.423937043Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-periodic-updates\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.423962095Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"automation-and-scheduling\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.424029379Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-ssr-conversion\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.424237882Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-voice-transcription\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.424269547Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-image-generation\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.424554725Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"finance-pro-playbooks\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.424763416Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-maps-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.424937973Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill sync completed\\\",\\\"status\\\":\\\"success\\\",\\\"success_count\\\":26,\\\"total_count\\\":26,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:21.42990766Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/runtime.v1.SkillService/SyncSkills\\\",\\\"status\\\":200,\\\"duration_ms\\\":9,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:21.68272283Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 7163
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695623.6857657,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "2898",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n{\\\"time\\\":\\\"2026-08-14T08:20:22.144912274Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"GET\\\",\\\"path\\\":\\\"/terminal\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:22.145159791Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WebSocket connected\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:22.378036557Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WS message received\\\",\\\"action_id\\\":\\\"chatcmpl-tool-9c30cbe477aa3ef9\\\",\\\"type\\\":\\\"command\\\",\\\"mode\\\":\\\"run\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:22.378265917Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal run\\\",\\\"action\\\":\\\"chatcmpl-tool-9c30cbe477aa3ef9\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"command_len\\\":53,\\\"exec_dir\\\":\\\".\\\",\\\"command\\\":\\\"cd /home/ubuntu/kiro-gen\\\\nhead -100 captured_flow.json\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:22.794793798Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"saved full terminal output\\\",\\\"path\\\":\\\"/home/ubuntu/terminal_full_output/2026-08-14_08-20-22_794623_121429.txt\\\",\\\"chars\\\":25458,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:22.794847183Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal finish\\\",\\\"action\\\":\\\"chatcmpl-tool-9c30cbe477aa3ef9\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"exit_code\\\":\\\"0\\\",\\\"lines\\\":146,\\\"completion_reason\\\":\\\"prompt\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:22.795018641Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal command completion written to requester\\\",\\\"action_id\\\":\\\"chatcmpl-tool-9c30cbe477aa3ef9\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"type\\\":\\\"finish\\\",\\\"status\\\":\\\"idle\\\",\\\"out_lines\\\":28,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:23.03127877Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WebSocket disconnected\\\",\\\"duration\\\":800000000,\\\"messages\\\":1,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:23.03137507Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"GET\\\",\\\"path\\\":\\\"/terminal\\\",\\\"status\\\":200,\\\"duration_ms\\\":886,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:23.682457466Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 2898
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695633.685638,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "387",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:33.68256322Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 387
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695637.685772,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "8219",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:20:36.097081345Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/skills/sync-skills\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.098272728Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Syncing skills\\\",\\\"count\\\":26,\\\"max_concurrency\\\":5,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.098429935Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"data-backup-restoration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.098599322Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"gws-best-practices\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.098882401Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-config\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.099046323Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"automation-and-scheduling\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.099150204Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"builtin-llm-models\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.099258205Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-custom-dockerfile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.099464045Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-fullstack\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.099487508Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"imagegen\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.099468409Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-pptx\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.099579586Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile-backend\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.099695791Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.09971568Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"persistent-computing\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.099796543Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-static\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.100358751Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-image-generation\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.100364764Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-maps-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.100340373Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"skill-creator\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.100620097Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-llm-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.100823118Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-file-storage\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.100830218Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-manus-oauth\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.101013275Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-voice-transcription\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.101265044Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-periodic-updates\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.101362625Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-ssr-conversion\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.101373845Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-data-api\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.101516525Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"read-special-images\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.101860439Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-owner-notifications\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.102318551Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"finance-pro-playbooks\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.102425573Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill sync completed\\\",\\\"status\\\":\\\"success\\\",\\\"success_count\\\":26,\\\"total_count\\\":26,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.104500641Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/runtime.v1.SkillService/SyncSkills\\\",\\\"status\\\":200,\\\"duration_ms\\\":7,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.343182375Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/text_editor\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:36.343582536Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"text_editor request\\\",\\\"command\\\":\\\"write\\\",\\\"path\\\":\\\"/home/ubuntu/kiro-gen/test_spa_proxy.py\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:37.090552541Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Upload completed\\\",\\\"file\\\":\\\"test_spa_proxy.py\\\",\\\"size_mb\\\":0,\\\"duration_s\\\":\\\"0.75\\\",\\\"speed_mbps\\\":\\\"0.00\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:37.091473311Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/runtime.v1.TextEditorService/RunTextEditorAction\\\",\\\"status\\\":200,\\\"duration_ms\\\":748,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:37.682587874Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 8219
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695639.6851852,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "7165",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:20:39.587766848Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/skills/sync-skills\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.58852706Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Syncing skills\\\",\\\"count\\\":26,\\\"max_concurrency\\\":5,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.588647776Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"data-backup-restoration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.588652969Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-pptx\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.588653894Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"skill-creator\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.588677087Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-llm-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.588814754Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"persistent-computing\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.589054296Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"imagegen\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.58905237Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-fullstack\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.589155376Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-config\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.589262127Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile-backend\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.589429924Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.589586117Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"builtin-llm-models\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.589705877Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-static\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.589790355Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-periodic-updates\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.590003792Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-custom-dockerfile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.590095321Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"automation-and-scheduling\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.59009424Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-data-api\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.590177382Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-manus-oauth\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.590376269Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-maps-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.59059623Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"gws-best-practices\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.590715352Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-image-generation\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.590718823Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-ssr-conversion\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.59080846Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"read-special-images\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.590920853Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-voice-transcription\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.590928262Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-owner-notifications\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.59101395Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"finance-pro-playbooks\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.591151116Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-file-storage\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.591488139Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill sync completed\\\",\\\"status\\\":\\\"success\\\",\\\"success_count\\\":26,\\\"total_count\\\":26,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:39.593455464Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/runtime.v1.SkillService/SyncSkills\\\",\\\"status\\\":200,\\\"duration_ms\\\":5,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:39.681932311Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 7165
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695641.6853812,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "1415",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:20:40.285076197Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"GET\\\",\\\"path\\\":\\\"/terminal\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:40.285483163Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WebSocket connected\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:40.511637074Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WS message received\\\",\\\"action_id\\\":\\\"chatcmpl-tool-a6a1a264d4fcc928\\\",\\\"type\\\":\\\"command\\\",\\\"mode\\\":\\\"run\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:40.511873119Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal run\\\",\\\"action\\\":\\\"chatcmpl-tool-a6a1a264d4fcc928\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"command_len\\\":55,\\\"exec_dir\\\":\\\".\\\",\\\"command\\\":\\\"cd /home/ubuntu/kiro-gen\\\\npython3 test_spa_proxy.py 2\\u003e\\u00261\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:41.682314697Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 1415
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695643.6858265,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:43.682752262Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695647.6849985,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "1477",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:20:47.096599844Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal finish\\\",\\\"action\\\":\\\"chatcmpl-tool-a6a1a264d4fcc928\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"exit_code\\\":\\\"0\\\",\\\"lines\\\":21,\\\"completion_reason\\\":\\\"prompt\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:47.096783757Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"terminal command completion written to requester\\\",\\\"action_id\\\":\\\"chatcmpl-tool-a6a1a264d4fcc928\\\",\\\"terminal\\\":\\\"api-only-3\\\",\\\"type\\\":\\\"finish\\\",\\\"status\\\":\\\"idle\\\",\\\"out_lines\\\":21,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:47.326098944Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Terminal WebSocket disconnected\\\",\\\"duration\\\":7000000000,\\\"messages\\\":1,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:47.326202718Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"GET\\\",\\\"path\\\":\\\"/terminal\\\",\\\"status\\\":200,\\\"duration_ms\\\":7041,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:47.681957052Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 1477
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695653.6864603,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "388",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"Host ID file already exists, skipping instance ID fetching\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:53.683122525Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 388
+  },
+  {
+    "type": "request",
+    "timestamp": 1786695657.6851149,
+    "method": "POST",
+    "url": "http://127.0.0.1:8080/",
+    "host": "127.0.0.1",
+    "path": "/",
+    "headers": {
+      "Host": "127.0.0.1:8080",
+      "User-Agent": "Go-http-client/1.1",
+      "Content-Length": "7171",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip"
+    },
+    "body": "{\"data\":\"{\\\"time\\\":\\\"2026-08-14T08:20:57.620544253Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request begin\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/skills/sync-skills\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.621310027Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Syncing skills\\\",\\\"count\\\":26,\\\"max_concurrency\\\":5,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.621441513Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"data-backup-restoration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.621439713Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"gws-best-practices\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.621436273Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-config\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.621457669Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-file-storage\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.621596291Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-fullstack\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.621598871Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"persistent-computing\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.621869291Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"skill-creator\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.622036863Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"automation-and-scheduling\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.622100858Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"imagegen\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.622223719Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-owner-notifications\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.622314104Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"builtin-llm-models\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.622427702Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-image-generation\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.622522066Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"manus-pptx\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.622635817Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-maps-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.622697767Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-manus-oauth\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.622796805Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-llm-integration\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.623009683Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-static\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.623093001Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-periodic-updates\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.623183624Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-voice-transcription\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.623307734Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile-backend\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.623328978Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"read-special-images\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.623404521Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-ssr-conversion\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.623613976Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-custom-dockerfile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.623686397Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-data-api\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.623837822Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"finance-pro-playbooks\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.624050053Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill is up to date, skipping\\\",\\\"skill\\\":\\\"webdev-readme-mobile\\\",\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.624126727Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"Skill sync completed\\\",\\\"status\\\":\\\"success\\\",\\\"success_count\\\":26,\\\"total_count\\\":26,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n{\\\"time\\\":\\\"2026-08-14T08:20:57.626656963Z\\\",\\\"level\\\":\\\"INFO\\\",\\\"msg\\\":\\\"http request end\\\",\\\"method\\\":\\\"POST\\\",\\\"path\\\":\\\"/runtime.v1.SkillService/SyncSkills\\\",\\\"status\\\":200,\\\"duration_ms\\\":6,\\\"sandbox_id\\\":\\\"iki2aifdrs9bzx45yvn5g\\\",\\\"session_id\\\":\\\"EXMcAb7843CsAMozCsraEZ\\\"}\\n\",\"envID\":\"ymp0o0kulio98xlikkiq\",\"event_type\":\"stdout\",\"instanceID\":\"iki2aifdrs9bzx45yvn5g\",\"level\":\"info\",\"logger\":\"process\",\"message\":\"Streaming process event\",\"operation_id\":\"1\",\"teamID\":\"2f2a758a-66a6-455a-8e76-a5af3a9b851a\",\"timestamp\":\"2026-08-14T08:20:57.682056088Z\",\"traceID\":\"9ea58cfbfc87d0b6ad3ffb9edc729b1b\"}",
+    "content_length": 7171
+  }
+]

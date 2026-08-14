@@ -1,0 +1,13 @@
+[*] Creating 1 accounts...
+[1/1] 3acy1u90rd@havenhaus.in (Mason Nair)
+  Password: TestPass8214$
+    Initial body: 
+
+Allow kiro-4f914e00 to access your data?
+By choosing Allow access, you agree to allow kiro-4f914e0
+    Allow clicked - exiting flow
+    Waiting for callback on port 8970...
+    Callback received! Code: eyJraWQiOiJrZXktMTU2NDAyODA3OCIsImFsZyI6IkhTMzg0In...
+  [OK] Token captured! Refresh: aorAAAAAGr040MZwbBPKVIuBhBbnyH3hzKiELDSoL_Ai1xyd1q...
+
+[*] Done! 1/1 accounts created with tokens.

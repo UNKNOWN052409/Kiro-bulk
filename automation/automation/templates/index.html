@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail AI — Automation Dashboard</title>
+    <meta name="description" content="AI-powered Gmail automation dashboard. Read, filter and send emails with smart time filters.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="app-container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar glass-panel">
+            <div class="logo">
+                <i data-lucide="bot"></i>
+                <h2>Mail AI</h2>
+            </div>
+
+            <button class="btn-primary" id="btn-compose">
+                <i data-lucide="edit-3"></i> Compose
+            </button>
+
+            <nav class="nav-menu">
+                <a href="#" class="active" id="nav-inbox">
+                    <i data-lucide="inbox"></i> Inbox
+                    <span class="badge" id="inbox-count">0</span>
+                </a>
+                <a href="#" id="nav-sent">
+                    <i data-lucide="send"></i> Sent
+                </a>
+                <a href="#" id="nav-rules">
+                    <i data-lucide="zap"></i> AI Rules
+                </a>
+            </nav>
+
+            <!-- Cache status indicator -->
+            <div class="cache-info" id="cache-info">
+                <i data-lucide="clock"></i>
+                <span id="cache-age-label">Loading...</span>
+            </div>
+        </aside>
+
+        <!-- Main Email List -->
+        <main class="email-list-container glass-panel">
+            <header class="list-header">
+                <h3 id="list-title">Inbox</h3>
+                <div class="header-actions">
+                    <button class="icon-btn spin-on-click" id="btn-refresh" title="Force refresh from Gmail">
+                        <i data-lucide="refresh-cw"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Time Filter Pills -->
+            <div class="filter-bar" id="filter-bar">
+                <button class="filter-pill active" data-filter="all" id="filter-all">All</button>
+                <button class="filter-pill" data-filter="today" id="filter-today">
+                    <i data-lucide="sun"></i> Today
+                </button>
+                <button class="filter-pill" data-filter="3h" id="filter-3h">
+                    <i data-lucide="clock-3"></i> Last 3h
+                </button>
+                <button class="filter-pill" data-filter="1h" id="filter-1h">
+                    <i data-lucide="zap"></i> Last 1h
+                </button>
+            </div>
+
+            <!-- Results summary -->
+            <div class="results-bar" id="results-bar"></div>
+
+            <div class="email-list" id="email-list">
+                <div class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Connecting to Gmail...</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Reading Pane -->
+        <section class="reading-pane glass-panel">
+            <div class="empty-state" id="reading-empty">
+                <i data-lucide="mail-open"></i>
+                <p>Select an email to read</p>
+            </div>
+
+            <div class="email-content hidden" id="reading-content">
+                <div class="email-header">
+                    <h2 id="read-subject">Subject line goes here</h2>
+                    <div class="meta-info">
+                        <div class="sender-info">
+                            <div class="avatar" id="read-avatar">A</div>
+                            <div class="details">
+                                <span class="name" id="read-from">Sender Name</span>
+                                <span class="date" id="read-date">Today, 10:30 AM</span>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button class="icon-btn" title="Reply" id="btn-reply"><i data-lucide="reply"></i></button>
+                            <button class="icon-btn" title="Forward"><i data-lucide="forward"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="email-body" id="read-body">
+                    <!-- Body injected here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Compose Modal Overlay -->
+        <div class="modal-overlay hidden" id="compose-modal">
+            <div class="modal glass-panel compose-box">
+                <div class="modal-header">
+                    <h3>New Message</h3>
+                    <button class="icon-btn" id="btn-close-compose"><i data-lucide="x"></i></button>
+                </div>
+                <div class="modal-body">
+                    <input type="email" id="compose-to" placeholder="To" autocomplete="email" />
+                    <input type="text" id="compose-subject" placeholder="Subject" />
+                    <textarea id="compose-body" placeholder="Write your message here..."></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-secondary" id="btn-cancel-compose">Cancel</button>
+                    <button class="btn-primary" id="btn-send">
+                        <i data-lucide="send"></i> Send
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toast notification -->
+        <div class="toast hidden" id="toast"></div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

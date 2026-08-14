@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"PYTHONIOENCODING=utf-8 python -c \\\"compile(open('C:/Users/Unkno/Videos/New folder/automation (2)/run_bot.py','r',encoding='utf-8').read(), 'run_bot.py', 'exec'); print('Syntax OK')\\\" 2>&1\"...",
+  "error": "Exit code 1\nTraceback (most recent call last):\r\n  File \"<string>\", line 1, in <module>\r\n  File \"run_bot.py\", line 446\r\n    elif state == \"enter-email\":\r\n    ^^^^\r\nSyntaxError: invalid syntax",
+  "timestamp": "2026-06-27T08:22:39.898Z",
+  "retry_count": 2
+}
