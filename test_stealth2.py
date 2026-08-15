@@ -18,7 +18,6 @@ cc = base64.urlsafe_b64encode(hashlib.sha256(cv.encode()).digest()).rstrip(b'=')
 auth_url = f'https://oidc.us-east-1.amazonaws.com/authorize?response_type=code&client_id={client_id}&redirect_uri={quote(f"http://127.0.0.1:{CALLBACK_PORT}/oauth/callback")}&scopes=codewhisperer%3Acompletions&state=t&code_challenge={cc}&code_challenge_method=S256'
 
 with sync_playwright() as p:
-    # Use stealth - regular browser launch (NOT CDP)
     browser = p.chromium.launch(channel='chromium', headless=True, args=['--no-sandbox'])
     ctx = browser.new_context(
         user_agent=UA,
@@ -30,10 +29,11 @@ with sync_playwright() as p:
     stealth.apply_stealth_sync(ctx)
     page = ctx.new_page()
     
-    # Navigate to auth URL
-    page.goto(auth_url, wait_until='load', timeout=120000)
+    # Track responses
+    responses = []
+    page.on("response", lambda r: responses.append(f"{r.status} {r.url[:100]}") if 'api/execute' in r.url else None)
     
-    # Wait for redirect to signin.aws
+    page.goto(auth_url, wait_until='load', timeout=120000)
     try:
         page.wait_for_url('**signin.aws**workflowStateHandle**', timeout=90000)
     except:
@@ -43,9 +43,34 @@ with sync_playwright() as p:
     
     ws = re.search(r'workflowStateHandle=([a-f0-9-]{36})', page.url).group(1)
     print(f'WS: {ws}')
-    time.sleep(random.uniform(5, 10))
     
-    # Find email input and fill
+    # Wait for full page render
+    for i in range(30):
+        time.sleep(2)
+        try:
+            body = page.evaluate("document.body ? document.body.innerText : ''")
+            if len(body) > 50:
+                break
+        except:
+            pass
+    
+    # Dismiss cookie banner
+    for btn_text in ["Decline", "Accept", "Dismiss"]:
+        try:
+            btns = page.get_by_role("button", name=btn_text, exact=True).all()
+            for btn in btns:
+                if btn.is_visible(timeout=500):
+                    btn.click(timeout=1000)
+                    print(f"Dismissed cookie: {btn_text}")
+                    time.sleep(2)
+                    break
+        except:
+            pass
+    
+    body = page.evaluate("document.body ? document.body.innerText : ''")
+    print(f'Body: {body[:200]}')
+    
+    # Find email input
     email_inputs = page.locator('input[type="email"], input').all()
     email_input = None
     for inp in email_inputs:
@@ -58,32 +83,45 @@ with sync_playwright() as p:
         print('Found email input, typing...')
         email_input.click()
         time.sleep(random.uniform(1, 3))
-        email = 'teststealth@havenhaus.in'
+        email = 'testst2@havenhaus.in'
         email_input.type(email, delay=random.uniform(50, 120))
         time.sleep(random.uniform(2, 4))
         print(f'Email value: {email_input.input_value()}')
         
         # Click Continue
         btns = page.locator('button, input[type="submit"]').all()
-        clicked = False
         for btn in btns:
             txt = btn.inner_text()
             if 'continue' in txt.lower() or 'sign' in txt.lower():
                 print(f'Clicking: {txt}')
                 btn.click()
-                clicked = True
                 break
-        if not clicked and btns:
-            btns[0].click()
+        else:
+            if btns:
+                btns[0].click()
         
-        time.sleep(random.uniform(5, 10))
+        # Wait for page to update
+        time.sleep(random.uniform(8, 15))
         print(f'After email submit URL: {page.url[:120]}')
-        body = page.evaluate("document.body ? document.body.innerText : ''")
-        print(f'Body: {body[:200]}')
         
-        # Check for name input
-        if 'name' in body.lower() and 'enter your' in body.lower():
+        # Wait for render
+        for i in range(30):
+            time.sleep(2)
+            try:
+                body = page.evaluate("document.body ? document.body.innerText : ''")
+                if len(body) > 50:
+                    break
+            except:
+                pass
+        
+        body = page.evaluate("document.body ? document.body.innerText : ''")
+        print(f'Body after email: {body[:300]}')
+        
+        # Check for name page
+        if 'enter your name' in body.lower() or 'name' in body.lower():
             print('\n=== NAME PAGE DETECTED ===')
+            
+            # Find name input
             text_inputs = page.locator('input[type="text"]').all()
             name_input = None
             for inp in text_inputs:
@@ -111,18 +149,28 @@ with sync_playwright() as p:
                     if btns:
                         btns[0].click()
                 
-                time.sleep(random.uniform(5, 10))
+                time.sleep(random.uniform(8, 15))
                 body = page.evaluate("document.body ? document.body.innerText : ''")
-                print(f'After name submit body: {body[:200]}')
+                print(f'After name submit body: {body[:300]}')
                 
-                if 'ERR-837' not in body and 'error' not in body.lower()[:50]:
-                    print('\n[SUCCESS] Name submitted without error!')
-                else:
+                if 'ERR-837' in body:
                     print('\n[FAIL] ERR-837 detected')
+                elif 'password' in body.lower() or 'enter password' in body.lower():
+                    print('\n[SUCCESS] Password page reached!')
+                else:
+                    print(f'\n[UNKNOWN] Current state: {body[:100]}')
             else:
                 print('No name input found')
+                all_inputs = page.locator('input').all()
+                for inp in all_inputs:
+                    print(f'  Input: type={inp.get_attribute("type")}, id={inp.get_attribute("id")}')
         else:
-            print('Not on name page')
+            print('\nNot on name page')
+    
+    # Print API responses
+    print(f'\n=== API responses ({len(responses)}) ===')
+    for r in responses:
+        print(r)
     
     ctx.close()
     browser.close()

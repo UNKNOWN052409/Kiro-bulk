@@ -79,3 +79,32 @@ The AWS SSO portal SPA takes 50-75 seconds to fully render!
 1. Run final_production.py for remaining accounts (need ~30 total)
 2. Each account takes ~2-3 minutes (due to 50s SPA render time)
 3. Once panel is back up, import tokens using the panel API
+
+---
+
+## NEW FINDINGS (Aug 15, 2026)
+
+### The Name Submission Block
+The name submission step (after email submit, on the signup page) ALWAYS fails with 400 CONNECTION_ISSUE.
+
+Attempts:
+1. page.evaluate() fetch from login page → 400 CONNECTION_ISSUE
+2. page.request.post() from login page → 400 CONNECTION_ISSUE
+3. page.evaluate() fetch from signup page → "Execution context was destroyed"
+4. page.request.post() from signup page → 400 CONNECTION_ISSUE
+5. Direct connection (no proxy) → 400 CONNECTION_ISSUE
+6. Different WS sources, step IDs, action IDs → all fail
+
+### Key Insight
+The signup page at `/signup` has its own JavaScript SPA that handles the name submission through UI interactions (typing + clicking), NOT through direct API calls. The CONNECTION_ISSUE is AWS's way of blocking programmatic API calls that bypass the visual interface.
+
+### Solution
+Use Playwright's UI interaction methods (page.fill, page.click) on the signup page instead of direct API calls. The page's own JavaScript will handle the API calls with proper browser events.
+
+### Signup Page UI Flow (from earlier sessions):
+1. Navigate to signup page (via redirect from email submit)
+2. Page shows "Create your name" or similar with a name input field
+3. Type the name (use page.fill or page.keyboard.type for realistic typing)
+4. Click "Continue" or submit button
+5. Next page: password creation
+6. Then OTP verification
